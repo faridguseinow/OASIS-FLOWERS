@@ -40,11 +40,11 @@ const Index = ({ menuIsActive, setMenuIsActive }) => {
         <div className="Navbar-animated__menu" data-isactive={menuIsActive === true ? 'true' : menuIsActive === false ? 'false' : null}>
             <div className="hamburger_menu_list">
 
-                <Link to={'/cameras'} onClick={menuHide}>
+                {/* <Link to={'/cameras'} onClick={menuHide}>
                     <div className='menu_text_main_inner'>
                         <img src={VideoCam} width={48} />
                     </div>
-                </Link>
+                </Link> */}
                 <Link to={'/products/flowers'} onClick={menuHide}>
                     <div className='menu_text_main_inner'>
                         <p>{t('navbar.flowers')}</p>

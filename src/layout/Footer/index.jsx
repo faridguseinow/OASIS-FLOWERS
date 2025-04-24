@@ -6,8 +6,10 @@ import './style.scss'
 import LogoMini from '@/assets/icons/logo_mini.png'
 import TGimg from '@/assets/icons/social/icons8-telegram.svg'
 import VKimg from '@/assets/icons/social/icons8-vk.svg'
-import Ximg from '@/assets/icons/social/icons8-x.svg'
+import Insimg from '@/assets/icons/social/icons8-instagram.svg'
 import YTimg from '@/assets/icons/social/icons8-youtube.svg'
+
+import OasisLogo from '@/assets/media/images/gf_logo.svg'
 
 import { Link } from 'react-router-dom';
 
@@ -15,7 +17,7 @@ import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 
 //Import Components
-import Button from '@/components/Button/Index'
+// import Button from '@/components/Button/Index'
 
 const Index = () => {
     const { t, i18n } = useTranslation();
@@ -68,17 +70,24 @@ const Index = () => {
                     </div>
                     <div className="contact_us contact_1">
                         <div className="social_media_container">
-                            <Link to={'https://www.x.com/goldenflowerscc'} target='_blank'>
-                                <img src={Ximg} alt="instagram" /> </Link>
-                            <Link to={'https://t.me/GoldenFlowersOpt'} target='_blank'>
+                            <Link to={'https://www.instagram.com/gfccru'} target='_blank'>
+                                <img src={Insimg} alt="instagram" /> </Link>
+                            <Link to={'https://t.me/OasisFlowersOpt'} target='_blank'>
                                 <img src={TGimg} alt="telegram" /> </Link>
                             <Link to={'https://vk.com/goldenflowerscc'} target='_blank'>
                                 <img src={VKimg} alt="facebook" /> </Link>
                             <Link to={'https://www.youtube.com/@gfccru'} target='_blank'>
                                 <img src={YTimg} alt="youtube" /> </Link>
                         </div>
-                        <div className="adres_container">
-                            <Link to={'https://yandex.ru/maps/-/CDrK4P8v'} target='_blank' className='adres'>{t('footer.address')}</Link>
+                        <div className="oasis_container">
+                            <h1>
+                                Партнер:
+                            </h1>
+                            <Link to={'https://opt.oasis-gc.ru/'} target='_blank' className='oasis'>
+                                <img src={OasisLogo} alt="oasis" />
+                            </Link>
+
+                            {/* <Link to={'https://yandex.ru/maps/-/CDrK4P8v'} target='_blank' className='adres'>{t('footer.address')}</Link> */}
                         </div>
                     </div>
                 </div>
@@ -86,7 +95,7 @@ const Index = () => {
                 <div className="footer_bottom">
                     <span className='rights_text'>© {year} {t('footer.rights')}</span>
                     <span>
-                        {t('footer.farid')}
+                        <Link to="https://faridguseinow.framer.website/" target='_blank'>{t('footer.sitecraft')}</Link>
                     </span>
                 </div>
 

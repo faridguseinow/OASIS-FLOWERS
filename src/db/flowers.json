@@ -1,8 +1,8 @@
 [
    {
       "name": {
-         "en": "Dianthus ⥤",
-         "ru": "Гвоздика ⥤"
+         "en": "Dianthus ",
+         "ru": "Гвоздика "
       },
       "inner_URL": "dianthus",
       "galleryTitle": {
@@ -35,16 +35,15 @@
                }
             ],
             "desc": {
+               "en": "The carnation is one of the most popular flowers of all time. This single flower has a delicate, ruffled, multi-petaled, double flower at the end of a long, branched stem. The flower can be 2 to 3 inches (5-8 cm) in diameter on a stem 1 to 3 feet (30-91 cm) long.",
+               "ru": "Гвоздика — один из самых популярных цветов всех времен. Этот одиночный цветок имеет нежный гофрированный многолепестковый, двойной цветок на конце длинного разветвленного стебля. Цветок может быть от 2 до 3 дюймов (5-8 см) в диаметре на стебле длиной от 1 до 3 футов (30-91 см)."
+            },
+            "plantation": "EMF",
+            "quantity": 20,
+            "assortment": {
                "en": "Carnation Painted",
                "ru": "Гвоздика Крашеная"
-            },
-            "plantation": "",
-            "quantity": 20,
-            "color": {
-               "en": "",
-               "ru": ""
-            },
-            "height": ""
+            }
          },
          {
             "name": {
@@ -59,23 +58,22 @@
                   "img": "https://permflower.ru/upload/iblock/2fc/2fcc0636079f73384a632ce7a0e579b2.jpg"
                },
                {
-                  "img": "https://sputnikspb.com/image/cache/catalog/product/gvozdika/Odnogolovaya/Green%20Trick/gvozdika-tureckaya-diantus-barbatus-grin-trik-1-800x800.jpg"
+                  "img": "https://bloomsbythebox.sirv.com/img/product/xlarge/01288A__Dianthus_Green_Trick.jpg?q=100"
                },
                {
                   "img": "https://www.roza4u.ru/image/catalog/gvozdika/IMG_3222230.jpg.jpg"
                }
             ],
             "desc": {
-               "en": "Carnation Fancy<br>Dianthus florigena<br>Carnation Türkiye Single Head",
-               "ru": "Гвоздика Фанси<br>Гвоздика Флоригена<br>Гвоздика Турция Одноголовая"
+               "en": "The carnation is one of the most popular flowers of all time. This single flower has a delicate, ruffled, multi-petaled, double flower at the end of a long, branched stem. The flower can be 2 to 3 inches (5-8 cm) in diameter on a stem 1 to 3 feet (30-91 cm) long.",
+               "ru": "Гвоздика — один из самых популярных цветов всех времен. Этот одиночный цветок имеет нежный гофрированный многолепестковый, двойной цветок на конце длинного разветвленного стебля. Цветок может быть от 2 до 3 дюймов (5-8 см) в диаметре на стебле длиной от 1 до 3 футов (30-91 см)."
             },
-            "plantation": "",
+            "plantation": "-",
             "quantity": 25,
-            "color": {
-               "en": "",
-               "ru": ""
-            },
-            "height": ""
+            "assortment": {
+               "en": "Carnation Fancy, Dianthus florigena, Carnation Türkiye Single Head",
+               "ru": "Гвоздика Фанси, Гвоздика Флоригена, Гвоздика Турция Одноголовая"
+            }
          },
          {
             "name": {
@@ -97,16 +95,15 @@
                }
             ],
             "desc": {
-               "en": "Carnation Ecuador<br>Carnation Ecuador Mix",
-               "ru": "Гвоздика Эквадор<br>Гвоздика Эквадор Микс"
+               "en": "The carnation is one of the most popular flowers of all time. This single flower has a delicate, ruffled, multi-petaled, double flower at the end of a long, branched stem. The flower can be 2 to 3 inches (5-8 cm) in diameter on a stem 1 to 3 feet (30-91 cm) long.",
+               "ru": "Гвоздика — один из самых популярных цветов всех времен. Этот одиночный цветок имеет нежный гофрированный многолепестковый, двойной цветок на конце длинного разветвленного стебля. Цветок может быть от 2 до 3 дюймов (5-8 см) в диаметре на стебле длиной от 1 до 3 футов (30-91 см)."
             },
             "plantation": "Azeriflores",
             "quantity": 20,
-            "color": {
-               "en": "",
-               "ru": ""
-            },
-            "height": ""
+            "assortment": {
+               "en": "Carnation Ecuador, Carnation Ecuador Mix",
+               "ru": "Гвоздика Эквадор, Гвоздика Эквадор Микс"
+            }
          },
          {
             "name": {
@@ -128,16 +125,15 @@
                }
             ],
             "desc": {
-               "en": "Carnation Colombia Floregene<br>Carnation Colombia Geo Flora Bush<br>Carnation Colombia Geo Flora Mix<br>Carnation Colombia Geo Flora Varietal",
-               "ru": "Гвоздика Колумбия Floregene<br>Гвоздика Колумбия Geo Flora Кустовая<br>Гвоздика Колумбия Geo Flora Микс<br>Гвоздика Колумбия Geo Flora Сортовая"
+               "en": "The carnation is one of the most popular flowers of all time. This single flower has a delicate, ruffled, multi-petaled, double flower at the end of a long, branched stem. The flower can be 2 to 3 inches (5-8 cm) in diameter on a stem 1 to 3 feet (30-91 cm) long.",
+               "ru": "Гвоздика — один из самых популярных цветов всех времен. Этот одиночный цветок имеет нежный гофрированный многолепестковый, двойной цветок на конце длинного разветвленного стебля. Цветок может быть от 2 до 3 дюймов (5-8 см) в диаметре на стебле длиной от 1 до 3 футов (30-91 см)."
             },
             "plantation": "Geo Flora, Floregene",
             "quantity": 25,
-            "color": {
-               "en": "",
-               "ru": ""
-            },
-            "height": ""
+            "assortment": {
+               "en": "Carnation Colombia Floregene, Carnation Colombia Geo Flora Bush, Carnation Colombia Geo Flora Mix, Carnation Colombia Geo Flora Varietal",
+               "ru": "Гвоздика Колумбия Floregene, Гвоздика Колумбия Geo Flora Кустовая, Гвоздика Колумбия Geo Flora Микс, Гвоздика Колумбия Geo Flora Сортовая"
+            }
          },
          {
             "name": {
@@ -159,16 +155,15 @@
                }
             ],
             "desc": {
+               "en": "The bush carnation is a wonderful flower and is a variation of the common carnation. But where the carnation consists of one flower, the bush carnation has several. Originally this is a flower that has a relatively high resistance to cold.",
+               "ru": "Кустовая гвоздика — замечательный цветок, и является разновидностью обычной гвоздики. Но там, где гвоздика состоит из одного цветка, кустовая гвоздика имеет несколько. Первоначально этот цветок, который имеет относительно высокую устойчивость к холоду."
+            },
+            "plantation": "-",
+            "quantity": 25,
+            "assortment": {
                "en": "Carnation Ecuador Bush",
                "ru": "Гвоздика Эквадор Кустовая"
-            },
-            "plantation": "",
-            "quantity": 25,
-            "color": {
-               "en": "",
-               "ru": ""
-            },
-            "height": ""
+            }
          },
          {
             "name": {
@@ -190,23 +185,22 @@
                }
             ],
             "desc": {
+               "en": "The bush carnation is a wonderful flower and is a variation of the common carnation. But where the carnation consists of one flower, the bush carnation has several. Originally this is a flower that has a relatively high resistance to cold.",
+               "ru": "Кустовая гвоздика — замечательный цветок, и является разновидностью обычной гвоздики. Но там, где гвоздика состоит из одного цветка, кустовая гвоздика имеет несколько. Первоначально этот цветок, который имеет относительно высокую устойчивость к холоду."
+            },
+            "plantation": "-",
+            "quantity": 25,
+            "assortment": {
                "en": "Carnation Türkiye Bush",
                "ru": "Гвоздика Турция Кустовая"
-            },
-            "plantation": "",
-            "quantity": 25,
-            "color": {
-               "en": "",
-               "ru": ""
-            },
-            "height": ""
+            }
          }
       ]
    },
    {
       "name": {
-         "en": "Roses ⥤",
-         "ru": "Розы ⥤"
+         "en": "Roses ",
+         "ru": "Розы "
       },
       "galleryTitle": {
          "en": "Roses are flowers that speak of <span>love</span> without words!",
@@ -390,8 +384,8 @@
    },
    {
       "name": {
-         "en": "Roses Local ⥤",
-         "ru": "Розы местные ⥤"
+         "en": "Roses Local ",
+         "ru": "Розы местные "
       },
       "galleryTitle": {
          "en": "Roses are flowers that speak of <span>love</span> without words!",
@@ -456,8 +450,8 @@
    },
    {
       "name": {
-         "en": "Chrysanthemum ⥤",
-         "ru": "Хризантема ⥤"
+         "en": "Chrysanthemum ",
+         "ru": "Хризантема "
       },
       "galleryTitle": {
          "en": "In Eastern culture, the <span>chrysanthemum</span> symbolizes longevity and happiness, as if nature itself gives us its blessings!",
@@ -471,108 +465,111 @@
       ],
       "items": [
          {
-            "name": {
-               "en": "Deco",
-               "ru": "Деко"
-            },
-            "images": [
-               {
-                  "img": "https://sun9-80.userapi.com/impg/l_pp4zpVQQZvoYWs4N8VzB2PkgC6bHtTfaFtDg/hd1aVJOe_gw.jpg?size=1920x1280&quality=95&sign=ae22a9fdc987e61d2e32cc68fb235b90&type=album"
-               },
-               {
-                  "img": "https://www.woolmans.com/cdn/shop/files/CHR-294z.jpg?v=1721852282&width=2048"
-               },
-               {
-                  "img": "https://btfgroup.com/wp-content/uploads/2021/05/Chrysanthemum-Deco-Snowdown-Peach-600x600-5.jpg"
-               },
-               {
-                  "img": "https://rukminim2.flixcart.com/image/720/864/xif0q/plant-seed/3/r/b/30-chrysanthemum-flower-mix-seeds-mix-seeds-for-chrysanthemum-original-imaghe2csnk4pgdp.jpeg?q=60&crop=false"
-               },
-               {
-                  "img": "https://rukminim2.flixcart.com/image/850/1000/xif0q/plant-seed/0/j/e/75-chrysanthemum-flower-seeds-c-747-kanaya-original-imaghmweugap9mm8.jpeg?q=90&crop=false"
-               }
-            ],
-            "desc": {
-               "en": "Anastasia white<br>Anastasia yellow<br>Undercover<br>Antonov<br>Antonov painted<br>Brasiliana<br>Gagarin<br>Kalimba<br>Kalimba Salmon<br>Kasandra<br>Lamira<br>Magnum<br>Magnum yellow<br>Momoko<br>Peter<br>Pip<br>Peep red<br>Pip Pretty<br>Rossano<br>Souvenir<br>Super Bowl<br>Etrusco Pink",
-               "ru": "Анастасия белая<br>Анастасия желтая<br>Андекавер<br>Антонов<br>Антонов крашеный<br>Брасилиана<br>Гагарин<br>Калимба<br>Калимба Салмон<br>Касандра<br>Ламира<br>Магнум<br>Магнум желтый<br>Момоко<br>Пётр<br>Пип<br>Пип красный<br>Пип Претти<br>Россано<br>Сувенир<br>Супербоул<br>Этруско Пинк"
-            },
-            "plantation": "Zentoo, Vannova, Dekker, Retine, Decorum",
-            "quantity": 10,
-            "color": {
-               "en": "White Yellow Gold Pink Red Orange Cream Dyed",
-               "ru": "Белый Желтый Золотый Розовый Красный Оранжевый Кремовый Крашеный"
-            },
-            "height": 60
-         },
+           "name": {
+              "en": "Deco",
+              "ru": "Деко"
+           },
+           "images": [
+              {
+                 "img": "https://www.woolmans.com/cdn/shop/files/CHR-294z.jpg?v=1721852282&width=2048"
+              },
+              {
+                 "img": "https://btfgroup.com/wp-content/uploads/2021/05/Chrysanthemum-Deco-Snowdown-Peach-600x600-5.jpg"
+              },
+              {
+                 "img": "https://rukminim2.flixcart.com/image/720/864/xif0q/plant-seed/3/r/b/30-chrysanthemum-flower-mix-seeds-mix-seeds-for-chrysanthemum-original-imaghe2csnk4pgdp.jpeg?q=60&crop=false"
+              },
+              {
+                 "img": "https://rukminim2.flixcart.com/image/850/1000/xif0q/plant-seed/0/j/e/75-chrysanthemum-flower-seeds-c-747-kanaya-original-imaghmweugap9mm8.jpeg?q=90&crop=false"
+              }
+           ],
+           "desc": {
+              "en": "Disbud chrysanthemum  – one single large flower per stem produced by removing all side buds when plant was young.",
+              "ru": "Одноголовые хризантемы – один крупный цветок на стебле, образующийся путем удаления всех боковых почек, когда растение было молодым."
+           },
+           "plantation": "Zentoo, Vannova, Dekker, Retine, Decorum",
+           "quantity": 10,
+           "color": {
+              "en": "White Yellow Gold Pink Red Orange Cream Dyed",
+              "ru": "Белый Желтый Золотый Розовый Красный Оранжевый Кремовый Крашеный"
+           },
+           "height": 70,
+           "assortment": {
+              "en": "Anastasia white, Anastasia yellow, Undercover, Antonov, Antonov painted, Brasiliana, Gagarin, Kalimba, Kalimba Salmon, Kasandra, Lamira, Magnum, Magnum yellow, Momoko, Peter, Pip, Peep red, Pip Pretty, Rossano, Souvenir, Super Bowl, Etrusco Pink",
+              "ru": "Анастасия белая, Анастасия желтая, Андекавер, Антонов, Антонов крашеный, Брасилиана, Гагарин, Калимба, Калимба Салмон, Касандра, Ламира, Магнум, Магнум желтый, Момоко, Пётр, Пип, Пип красный, Пип Претти, Россано, Сувенир, Супербоул, Этруско Пинк"
+           }
+        },
          {
-            "name": {
-               "en": "Spray",
-               "ru": "Кустовые"
-            },
-            "images": [
-               {
-                  "img": "https://sun9-13.userapi.com/impg/_G5fdugScl_XxrudAzXUuBOClTSyogVuDn-h8g/19lt1LgR3UE.jpg?size=1920x1280&quality=95&sign=e3d5ac6e25a0528551f6539261338bd9&type=album"
-               },
-               {
-                  "img": "https://ludaflower.com/wp-content/uploads/2018/06/WhiteChr.jpg"
-               },
-               {
-                  "img": "https://cdn11.bigcommerce.com/s-i7i23daso6/images/stencil/original/products/7028/25736/Chrysanthemum_Pompom_Rose_0006978__08703.1638360658.jpg"
-               },
-               {
-                  "img": "https://www.woolmans.com/cdn/shop/files/10-young-plants-1-of-each-chrysanthemum-cut-flower-bloom-and-spray-collection-44367488647442.jpg?v=1702687679&width=800"
-               },
-               {
-                  "img": "https://plantura.garden/uk/wp-content/uploads/sites/2/2022/08/chrysanthemum-plants-pots-1024x683.jpg?x63657"
-               }
-            ],
-            "desc": {
-               "en": "Altai<br>Altai Yellow<br>Bacardi Yellow<br>Bacardi Dyed<br>Baller Dark<br>Baller Pink<br>Baltika<br>Baltika Yellow<br>Baltika Painted<br>Baltika Cream<br>Baltika Pink<br>Baltika Salmon<br>Baltika Beyond<br>Bolte<br>Bombardino<br>Bontempi<br>Bonus<br>Baby<br>Gaidar<br>Gaidar Yellow<br>Guinthus<br>Delian Yellow<br>Julin<br>Euro White<br>Euro Yellow<br>Kalimba<br>Katinka<br>Katinka Salmon<br>Kaya<br>Code Green<br>Commander<br>Commander Painted<br>Commander Pink<br>Crown<br>Lamira<br>Let's Go Pink<br>Limoncello<br>Mexicano<br>Newton<br>Optimist Pink<br>Pastel White<br>Pastel Yellow<br>Pastela Pink<br>Prosecco<br>Purple Star<br>Joy<br>Joy Cream<br>Rihana<br>Serenity<br>Serenity Purple<br>Serenity Suite<br>Softon<br>Stellini<br>Stress<br>Souvenir<br>Tendenza<br>Topspin<br>Fabianna<br>Flarstar<br>Chick<br>Chick Cream<br>Abby",
-               "ru": "Алтай<br>Алтай Желтый<br>Бакарди Желтый<br>Бакарди Крашеный<br>Баллер Дарк<br>Баллер Пинк<br>Балтика<br>Балтика Желтая<br>Балтика Крашеная<br>Балтика Крем<br>Балтика Розовая<br>Балтика Салмон<br>Балтика Beyond<br>Болте<br>Бомбардино<br>Бонтемпи<br>Бонус<br>Бэби<br>Гайдар<br>Гайдар Желтый<br>Гуинтус<br>Делиан Желтый<br>Джулин<br>Евро Белый<br>Евро Желтый<br>Калимба<br>Катинка<br>Катинка Салмон<br>Кая<br>Код Грин<br>Командир<br>Командир Крашеный<br>Командир Розовый<br>Корона<br>Ламира<br>Летс Го Пинк<br>Лимончелло<br>Мексикано<br>Ньютон<br>Оптимист Розовый<br>Пастела Белая<br>Пастела Желтая<br>Пастела Пинк<br>Просекко<br>Пурпл Стар<br>Радость<br>Радость Крем<br>Рихана<br>Серенити<br>Серенити Пурпл<br>Серенити Свит<br>Софтон<br>Стеллини<br>Стреса<br>Сувенир<br>Тенденза<br>Топспин<br>Фабианна<br>Фларстар<br>Чик<br>Чик Крем<br>Эбби"
-            },
-            "plantation": "Zentoo, Vannova, Dekker, Retine, Decorum",
-            "quantity": 5,
-            "color": {
-               "en": "White Yellow Green Pink Red Orange Cream Dyed",
-               "ru": "Белый Желтый Зеленый Розовый Красный Оранжевый Кремовый Крашеный"
-            },
-            "height": 60
-         },
+           "name": {
+              "en": "Spray",
+              "ru": "Кустовые"
+           },
+           "images": [
+              {
+                 "img": "https://ludaflower.com/wp-content/uploads/2018/06/WhiteChr.jpg"
+              },
+              {
+                 "img": "https://cdn11.bigcommerce.com/s-i7i23daso6/images/stencil/original/products/7028/25736/Chrysanthemum_Pompom_Rose_0006978__08703.1638360658.jpg"
+              },
+              {
+                 "img": "https://www.woolmans.com/cdn/shop/files/10-young-plants-1-of-each-chrysanthemum-cut-flower-bloom-and-spray-collection-44367488647442.jpg?v=1702687679&width=800"
+              },
+              {
+                 "img": "https://plantura.garden/uk/wp-content/uploads/sites/2/2022/08/chrysanthemum-plants-pots-1024x683.jpg?x63657"
+              }
+           ],
+           "desc": {
+              "en": "In spray varieties, only the large apical bud is removed and the lateral buds are retained.",
+              "ru": "У кустовых сортов удаляется только крупная верхушечная почка, а боковые почки сохраняются."
+           },
+           "plantation": "Zentoo, Vannova, Dekker, Retine, Decorum, Beyond",
+           "quantity": 5,
+           "color": {
+              "en": "White Yellow Green Pink Red Orange Cream Dyed",
+              "ru": "Белый Желтый Зеленый Розовый Красный Оранжевый Кремовый Крашеный"
+           },
+           "height": 70,
+           "assortment": {
+              "en": "Altai, Altai Yellow, Bacardi Yellow, Bacardi Dyed, Baller Dark, Baller Pink, Baltika, Baltika Yellow, Baltika Painted, Baltika Cream, Baltika Pink, Baltika Salmon, Baltika Beyond, Bolte, Bombardino, Bontempi, Bonus, Baby, Gaidar, Gaidar Yellow, Guinthus, Delian Yellow, Julin, Euro White, Euro Yellow, Kalimba, Katinka, Katinka Salmon, Kaya, Code Green, Commander, Commander Painted, Commander Pink, Crown, Lamira, Let's Go Pink, Limoncello, Mexicano, Newton, Optimist Pink, Pastel White, Pastel Yellow, Pastela Pink, Prosecco, Purple Star, Joy, Joy Cream, Rihana, Serenity, Serenity Purple, Serenity Suite, Softon, Stellini, Stress, Souvenir, Tendenza, Topspin, Fabianna, Flarstar, Chick, Chick Cream, Abby",
+              "ru": "Алтай, Алтай Желтый, Бакарди Желтый, Бакарди Крашеный, Баллер Дарк, Баллер Пинк, Балтика, Балтика Желтая, Балтика Крашеная, Балтика Крем, Балтика Розовая, Балтика Салмон, Балтика Beyond, Болте, Бомбардино, Бонтемпи, Бонус, Бэби, Гайдар, Гайдар Желтый, Гуинтус, Делиан Желтый, Джулин, Евро Белый, Евро Желтый, Калимба, Катинка, Катинка Салмон, Кая, Код Грин, Командир, Командир Крашеный, Командир Розовый, Корона, Ламира, Летс Го Пинк, Лимончелло, Мексикано, Ньютон, Оптимист Розовый, Пастела Белая, Пастела Желтая, Пастела Пинк, Просекко, Пурпл Стар, Радость, Радость Крем, Рихана, Серенити, Серенити Пурпл, Серенити Свит, Софтон, Стеллини, Стреса, Сувенир, Тенденза, Топспин, Фабианна, Фларстар, Чик, Чик Крем, Эбби"
+           }
+        },
          {
-            "name": {
-               "en": "Santini",
-               "ru": "Сантини"
-            },
-            "images": [
-               {
-                  "img": "https://sun9-79.userapi.com/impg/HH4odNxbSv-o9mAmPIkPc_xnL2aWbV-ipnR0hg/dfDYAVsG12A.jpg?size=1920x1280&quality=95&sign=a21d26ba9c89c724f9f2b022642c5eaf&type=album"
-               },
-               {
-                  "img": "https://shop.flowersforflorists.co.uk/user/products/flowers/104414.jpg"
-               },
-               {
-                  "img": "https://thursd.com/storage/media/37078/Chrysanthemum-Santini-Maverick-White-FeelHarmony-on-Thursd.jpg?1646224600825"
-               },
-               {
-                  "img": "https://avatars.dzeninfra.ru/get-zen_doc/1852570/pub_64f6eef0a35e890be432ae5c_64f6eef7a35e890be432b131/scale_1200"
-               },
-               {
-                  "img": "https://opt-fp.ru/uploads/store/product/698f8b3a939011eb80e2005056aebb19_59f702ae9b1011eb80e4005056aebb19.jpg"
-               }
-            ],
-            "desc": {
-               "en": "Santini Dyed<br>Santini Mix<br>Santini Rossi Cream<br>Santini Rossi Pink<br>Santini Rossi Sunny<br>Santini Rossi White<br>Santini Sun Up",
-               "ru": "Сантини Крашеный<br>Сантини Микс<br>Сантини Rossi Cream<br>Сантини Rossi Pink<br>Сантини Rossi Sunny<br>Сантини Rossi White<br>Сантини Sun Up"
-            },
-            "plantation": "Zentoo, Vannova",
-            "quantity": 25,
-            "color": {
-               "en": "White Yellow Green Pink Red Orange Cream Dyed",
-               "ru": "Белый Желтый Зеленый Розовый Красный Оранжевый Кремовый Крашеный"
-            },
-            "height": 50
-         }
-      ]
+           "name": {
+              "en": "Santini",
+              "ru": "Сантини"
+           },
+           "images": [
+              {
+                 "img": "https://shop.flowersforflorists.co.uk/user/products/flowers/104414.jpg"
+              },
+              {
+                 "img": "https://thursd.com/storage/media/37078/Chrysanthemum-Santini-Maverick-White-FeelHarmony-on-Thursd.jpg?1646224600825"
+              },
+              {
+                 "img": "https://avatars.dzeninfra.ru/get-zen_doc/1852570/pub_64f6eef0a35e890be432ae5c_64f6eef7a35e890be432b131/scale_1200"
+              },
+              {
+                 "img": "https://opt-fp.ru/uploads/store/product/698f8b3a939011eb80e2005056aebb19_59f702ae9b1011eb80e4005056aebb19.jpg"
+              }
+           ],
+           "desc": {
+              "en": "Santini chrysanthemums are available in a wide range of colors, including white, yellow, pink, red, purple, and more. They are known for their long-lasting blooms, making them a favoured choice for floral arrangements and bouquets. Unlike some other chrysanthemum varieties, Santinis do not have a strong scent, which can be beneficial for individuals who are sensitive to strong floral fragrances.",
+              "ru": "Хризантемы Сантини доступны в широком диапазоне цветов, включая белый, желтый, розовый, красный, фиолетовый и другие. Они известны своим длительным цветением, что делает их предпочтительным выбором для цветочных композиций и букетов. В отличие от некоторых других сортов хризантем, Сантини не имеют сильного запаха, что может быть полезно для людей, чувствительных к сильным цветочным ароматам."
+           },
+           "plantation": "Zentoo, Vannova, Kwekerij Waalzicht",
+           "quantity": 25,
+           "color": {
+              "en": "White Yellow Green Pink Red Orange Cream Dyed",
+              "ru": "Белый Желтый Зеленый Розовый Красный Оранжевый Кремовый Крашеный"
+           },
+           "height": 50,
+           "assortment": {
+              "en": "Santini Dyed, Santini Mix, Santini Rossi Cream, Santini Rossi Pink, Santini Rossi Sunny, Santini Rossi White, Santini Sun Up",
+              "ru": "Сантини Крашеный, Сантини Микс, Сантини Rossi Cream, Сантини Rossi Pink, Сантини Rossi Sunny, Сантини Rossi White, Сантини Sun Up"
+           }
+        }
+        ]
    },
    {
       "name": {
@@ -1653,7 +1650,7 @@
       },
       "images": [
          {
-            "img": "https://sputnikspb.com/image/cache/catalog/product/gvozdika/Odnogolovaya/Green%20Trick/gvozdika-tureckaya-diantus-barbatus-grin-trik-1-800x800.jpg"
+            "img": "https://bloomsbythebox.sirv.com/img/product/xlarge/01288A__Dianthus_Green_Trick.jpg?q=100"
          },
          {
             "img": "https://images.immediate.co.uk/production/volatile/sites/10/2018/08/5b1ec047-b510-4849-877d-7dbb71442ea8-590c6b3.jpg?quality=90&webp=true&resize=650,434"

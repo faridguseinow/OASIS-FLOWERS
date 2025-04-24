@@ -2,10 +2,11 @@
     --f-bold: 'Geologica_Bold';
     --f-medium: 'Geologica_Medium';
     --f-regular: 'Geologica_Regular';
-    --white: #fff;
+    --white: #ffffff;
     --black: #000;
-    --gray: #00000069;
-    --gold: #ecbb47;
+    --gray: rgba(136, 136, 136, 0.342);
+    --gold: #e63ca2;
+    --purple: #8224e3;
     --btn-transition: .25s ease;
 }
 
@@ -123,7 +124,6 @@ body,
     }
 }
 
-
 .parallax__wrapper {
     overflow: hidden;
     letter-spacing: -2px;
@@ -161,7 +161,6 @@ body,
             img {
                 width: 250px;
                 border-radius: 5px;
-                filter: grayscale(100%);
             }
         }
 
@@ -308,7 +307,7 @@ body,
                         color: var(--white);
                         font-family: var(--f-medium);
                         letter-spacing: 3px;
-                        line-height: 1.2;
+                        line-height: 1.3;
                         font-size: 48px;
                         position: absolute;
                         padding: 150px 64px;
@@ -349,6 +348,7 @@ body,
     background-repeat: no-repeat;
     background-size: cover;
     // background-color: #fff;
+    z-index: -6;
 }
 
 /////////////////////////////PRODUCTS PAGE STYLES
@@ -371,7 +371,7 @@ body,
             gap: 48px;
 
             .content_title {
-                font-family: var(--f-bold);
+                font-family: var(--f-regular);
                 font-size: 38px;
                 color: var(--white);
                 text-align: center;
@@ -457,7 +457,7 @@ body,
 
     @media screen and (max-width: 768px) {
         .products_content_wrapper {
-            padding: 50px 16px;
+            padding: 24px 16px;
 
             .content_wrapper_inner {
                 gap: 28px;

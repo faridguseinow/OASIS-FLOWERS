@@ -76,7 +76,7 @@ const Index = () => {
             className="products-page__container">
 
             <Helmet>
-                <title>Golden Flowers Cash&Carry - Cooperation</title>
+                <title>Oasis Cash&Carry - Cooperation</title>
                 <link rel="canonical" href="http://gfcc.ru/cooperation" />
             </Helmet>
 

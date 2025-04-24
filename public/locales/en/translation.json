@@ -9,7 +9,9 @@
       "cooperation": "Cooperation",
       "contact": "Contact",
       "priceList": "Price list",
-      "showcase": "Showcase"
+      "showcase": "Showcase",
+      "pricelist": "Price list"
+
    },
    "footer": {
       "flowers": {
@@ -36,14 +38,14 @@
          "interior": "Interior items"
       },
       "address": "Address: Moscow region, Leninsky urban district, Aparinki village, property 9, building 1, room 3",
-      "rights": "Golden Flowers LLC. All rights reserved.",
-      "farid": "Website created by Farid Huseynov."
+      "rights": "Oasis LLC. All rights reserved.",
+      "sitecraft": "Website created by Farid Huseynov."
    },
    "home": {
       "headerDesc": "EVERYTHING FOR FLOWER BUSINESS",
       "aboutSection": {
          "title": "Briefly about us:",
-         "desc": "GoldenFlowers Cash&Carry has been a supplier of flowers, plants and accessories from leading global manufacturers to the Russian market for decades and one of the largest wholesale bases for the flower business in the Moscow region. We have wholesale sales of cut flowers, potted plants, packaging materials. Here you will find everything for the flower business!",
+         "desc": "OasisFlowers Cash&Carry has been a supplier of flowers, plants and accessories from leading global manufacturers to the Russian market for decades and is one of the largest wholesale bases for the flower business in the Moscow region. We have wholesale sales of cut flowers, potted plants, packaging materials. Here you will find everything for the flower business!",
          "btnText": "Read more"
       },
       "collectionSection": {
@@ -66,7 +68,7 @@
    "about": {
       "header": {
          "title": "We are the largest flower base in the region!",
-         "desc": "GoldenFlowers Cash&Carry has been a supplier of flowers, plants and accessories from leading global manufacturers to the Russian market for decades and one of the largest wholesale bases for the flower business in the Moscow region. Here you will find everything for the flower businness. We supply flowers, plants and accessories from Holland, Italy, Germany, Spain, Israel, USA, China, Turkey, Azerbaijan, Armenia, Ecuador, Costa Rica, Colombia, Ethiopia, Uganda, Kenya and others. In addition, the warehouse always has products for plant care: soil and soil mixtures, mineral and organic fertilizers, top dressing at wholesale prices. For owners of flower shops and florists, a large assortment of accessories for creating bouquets is presented.",
+         "desc": "OasisFlowers Cash&Carry has been a supplier of flowers, plants and accessories from leading global manufacturers to the Russian market for decades and one of the largest wholesale bases for the flower business in the Moscow region. Here you will find everything for the flower businness. We supply flowers, plants and accessories from Holland, Italy, Germany, Spain, Israel, USA, China, Turkey, Azerbaijan, Armenia, Ecuador, Costa Rica, Colombia, Ethiopia, Uganda, Kenya and others. In addition, the warehouse always has products for plant care: soil and soil mixtures, mineral and organic fertilizers, top dressing at wholesale prices. For owners of flower shops and florists, a large assortment of accessories for creating bouquets is presented.",
          "num1": "YEARS OF EXPERIENCE IN THE FLOWER BUSINESS",
          "num2": "THE BEST PLANTATIONS COLLABORATE WITH US",
          "num3": "CLIENTS COLLABORATE WITH US",
@@ -100,16 +102,17 @@
    "contact": {
       "title": "Contacts",
       "section1": {
-         "title": "Call for more information. We work <span>7/24</span>!",
+         "title": "Call for more information. We work <span>24/7</span>!",
          "title2": "Click to call. We work <span>24/7!</span>",
-         "office1": "Head office",
-         "office2": "Chrysanthemum and Greenery",
-         "office3": "Rose Kenya",
-         "office4": "Exotic",
-         "office5": "Rose Ecuador",
-         "office6": "Houseplants",
-         "office7": "Rose on the water",
-         "office8": "Package"
+         "office1": "Head office:",
+         "office2": "Chrysanthemum and Greenery:",
+         "office3": "Rose Kenya:",
+         "office4": "Exotics:",
+         "office5": "Rose Ecuador:",
+         "office6": "Houseplants:",
+         "office7": "Rose on water:",
+         "office8": "Packaging:",
+         "office9": "Flowers from China:"
       },
       "form": {
          "title": "Contact us",
@@ -147,6 +150,15 @@
          "plant2": "Domestic plants 2",
          "kenya": "Rose Kenya",
          "ecuador": "Rose Ecuador"
+      }
+   },
+   "pricelist": {
+      "title": "Price List",
+      "sectionMain": {
+         "zayavka": "Dear customers! The price list is available to those who have completed the application below at the link:",
+         "send": "Go to the application",
+         "dostup": "If you have access, then go directly to the tables below:",
+         "watch": "Got to"
       }
    },
    "searchInput": "Search...",

@@ -72,7 +72,7 @@ const Index = () => {
          </div>
 
          <Helmet>
-            <title>Golden Flowers Cash&Carry - Flowers</title>
+            <title>Oasis Cash&Carry - Flowers</title>
             <link rel="canonical" href="http://gfcc.ru/products/flowers" />
          </Helmet>
 

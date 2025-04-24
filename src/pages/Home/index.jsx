@@ -31,7 +31,7 @@ const Index = () => {
         },
         {
             img: 'https://sun9-80.userapi.com/impg/-T03Fao9ePC9qoy2tnOq9ojmjaaEP-debSJyUA/5xpt40z0kik.jpg?size=1080x720&quality=95&sign=e835f355ec2c53bd4d4dda9bf3f853a2&type=album',
-            title: 'ХРИЗАНТЕМЫ'
+            title: 'ХРИЗАНТЕМА'
         },
         {
             img: 'https://sun9-78.userapi.com/impg/aoWbwNwDtv3knokAohxi3ToL0TAzDGkp-Aoa9g/r7vThk42F2I.jpg?size=1080x720&quality=95&sign=3429a8dbadc50a3488388590d7611fb5&type=album',
@@ -86,19 +86,19 @@ const Index = () => {
             className="home_page_container">
 
             <Helmet>
-                <title>Golden Flowers Cash&Carry - Home</title>
+                <title>Oasis Cash&Carry - Home</title>
                 <link rel="canonical" href="http://gfcc.ru/" />
             </Helmet>
 
             <header>
 
                 <div className="header_slogan">
-                    <p className='p1'>GOLDEN FLOWERS <br />Сash&Сarry</p>
+                    <p className='p1'>ОАЗИС Сash&Сarry</p>
                     <p className='p2'>{t('home.headerDesc')}</p>
 
-                    <div className="yandex_otziv">
-                        <iframe src="https://yandex.ru/sprav/widget/rating-badge/57660294184?type=rating&theme=dark"></iframe>
-                    </div>
+                    {/* <div className="yandex_otziv">
+                    <iframe src="https://yandex.ru/sprav/widget/rating-badge/57660294184?type=award"></iframe>
+                    </div> */}
                 </div>
 
 
@@ -120,7 +120,7 @@ const Index = () => {
                     <div className="right_content">
                         <p className='content_title'>{t('home.aboutSection.title')}</p>
 
-                        <span className='content_desc'>Компания GoldenFlowers Cash&Carry уже не первое десятилетие является поставщиком цветов, растений и аксессуаров от ведущих мировых производителей на российский рынок и одним из самых крупный оптовых баз для цветочного бизнеса на регионе Москвы. У нас оптовая продажа срезанных цветов, горшечных растений, упаковочного материала. Здесь вы найдете все для цветочного бизнеса!</span>
+                        <span className='content_desc'>{t('home.aboutSection.desc')}</span>
 
                         <div className="content_button">
                             <Button
@@ -236,6 +236,14 @@ const Index = () => {
                     </div>
                 </div>
             </div>
+
+            {/* <div className="yandex_container">
+                <div className='reviews_forms'>
+                    <iframe className="reviews" src="https://yandex.ru/maps-reviews-widget/57660294184?comments"></iframe>
+                    <iframe className="yandex_forms" src="https://forms.yandex.ru/u/678c1a1990fa7b0b411c1639/?iframe=1" frameborder={0} width={650}></iframe>
+                </div>
+
+            </div> */}
         </motion.div>
     )
 }

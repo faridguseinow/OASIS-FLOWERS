@@ -17,7 +17,6 @@ import { Helmet } from "react-helmet";
 // import Plant from "@/assets/media/images/camera/p.jpg"
 // import Plant2 from "@/assets/media/images/camera/p2.jpg"
 
-
 function index() {
 
     const { t, i18n } = useTranslation();
@@ -32,7 +31,7 @@ function index() {
             className="cameras_container">
 
             <Helmet>
-                <title>Golden Flowers Cash&Carry - Cameras</title>
+                <title>Oasis Cash&Carry - Cameras</title>
                 <link rel="canonical" href="http://gfcc.ru/cameras" />
             </Helmet>
 

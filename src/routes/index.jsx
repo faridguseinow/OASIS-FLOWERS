@@ -10,6 +10,7 @@ import Cooperation from '@/pages/Cooperation';
 import Contacts from '@/pages/Contacts';
 import About from '@/pages/About';
 import Cameras from '@/pages/Cameras';
+import PriceList from '@/pages/PriceList';
 
 import Footer from '@/layout/Footer';
 
@@ -41,6 +42,7 @@ const AnimatedRoutes = () => {
             <Route path='/contacts' element={<Contacts />} />
             <Route path='/about' element={<About />} />
             <Route path='/cameras' element={<Cameras />} />
+            <Route path='/pricelist' element={<PriceList />} />
 
             <Route
                path="*"

@@ -60,7 +60,7 @@ const Index = () => {
       <div className="details__container">
 
          <Helmet>
-            <title>Golden Flowers Cash&Carry - Accessories</title>
+            <title>Oasis Cash&Carry - Accessories</title>
             <link rel="canonical" href="http://gfcc.ru/products/accessories" />
          </Helmet>
 

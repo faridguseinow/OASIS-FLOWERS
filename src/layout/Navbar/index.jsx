@@ -2,12 +2,12 @@ import React from 'react'
 import './style.scss'
 
 //import images
-import Logo from '@/assets/icons/logo.svg'
-import Logo_S from '@/assets/icons/logo_sm.svg'
+import Logo from '@/assets/media/images/oasis_logo.png'
+import Logo_S from '@/assets/media/images/logoOA.png'
 import ArrowDown from '@/assets/icons/arrowDown';
 // import ShopSVG from '@/assets/icons/shop.svg'
 // import DownloadSVG from '@/assets/icons/download.svg'
-import DownloadSVG from '@/assets/icons/eye.png'
+// import DownloadSVG from '@/assets/icons/eye.png'
 // import VideoCam from '@/assets/icons/videocam.png'
 
 ///Import react router dom
@@ -41,12 +41,12 @@ const Index = ({ menuIsActive, setMenuIsActive }) => {
                 <div className="nav_logo">
                     <div className="logo">
                         <Link to={'/'}>
-                            <img src={Logo} alt="Golden Flowers Logo" />
+                            <img src={Logo} alt="Oasis Logo" />
                         </Link>
                     </div>
                     <div className="logo_s" onClick={() => menuIsActive && setMenuIsActive(false)}>
                         <Link to={'/'}>
-                            <img src={Logo_S} alt="Golden Flowers Logo Mini" />
+                            <img src={Logo_S} alt="Oasis Logo Mini" />
                         </Link>
                     </div>
                 </div>
@@ -129,9 +129,9 @@ const Index = ({ menuIsActive, setMenuIsActive }) => {
                                 <span>Магазин</span>
                             </button>
                         </a> */}
-                        <a href={window.innerWidth <= 767 ? "https://docs.google.com/spreadsheets/d/13crEl9oqD4mMIwqzXJKNrh8zemP5Tf0pw53jblwvByA/edit?gid=652358148#gid=652358148" : "https://docs.google.com/spreadsheets/d/13crEl9oqD4mMIwqzXJKNrh8zemP5Tf0pw53jblwvByA/edit?gid=1708159673#gid=1708159673"} target={'_blank'}>
+                        <a href={window.innerWidth <= 767 ? "http://gfcc.ru/pricelist" : "http://gfcc.ru/pricelist"} target={'_blank'}>
                             <button>
-                                <img src={DownloadSVG} width={24}/>
+                                {/* <img src={DownloadSVG} width={24}/> */}
                                 <span>{t('navbar.priceList')}</span>
                             </button>
                         </a>

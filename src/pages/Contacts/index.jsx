@@ -1,14 +1,14 @@
 import React, { useState } from 'react'
 import './style.scss';
-import { Swiper, SwiperSlide } from 'swiper/react';
+// import { Swiper, SwiperSlide } from 'swiper/react';
 
 import 'swiper/css';
 import 'swiper/css/effect-cards';
-import { EffectCards } from 'swiper/modules';
+// import { EffectCards } from 'swiper/modules';
 
 import { motion } from 'framer-motion';
 import axios from 'axios';
-import Alert from '@mui/material/Alert';
+// import Alert from '@mui/material/Alert';
 
 import HeaderRepeat from '@/layout/HeaderRepeat/index'
 
@@ -16,16 +16,14 @@ import HeaderRepeat from '@/layout/HeaderRepeat/index'
 import Num1 from '@/assets/icons/logo_mini.png'
 import Num2 from '@/assets/icons/flowers_icons/chrysanthemum.png'
 import Num3 from '@/assets/icons/flowers_icons/rose.png'
-import Num5 from '@/assets/icons/flowers_icons/rose.png'
-import Num7 from '@/assets/icons/flowers_icons/rose.png'
 import Num4 from '@/assets/icons/flowers_icons/exotic.png'
 import Num6 from '@/assets/icons/flowers_icons/domestic.png'
 import Num8 from '@/assets/icons/flowers_icons/packaging.png';
-import Loading from '@/assets/icons/loading.svg';
-import CustomerSupport from '@/assets/media/images/materials/contact_us.jpg';
+import Num9 from '@/assets/icons/flowers_icons/kitay.png'
+// import Loading from '@/assets/icons/loading.svg';
 
-import Call from '@/assets/icons/flowers_icons/call.png'
-import Whatsapp from '@/assets/icons/flowers_icons/whatsapp.svg';
+// import Call from '@/assets/icons/flowers_icons/call.png'
+import BaseIMG from '@/assets/media/images/materials/base.jpg'
 import { Helmet } from 'react-helmet';
 
 ///Import Constants
@@ -88,7 +86,7 @@ function index() {
             className="contact_page">
 
             <Helmet>
-                <title>Golden Flowers Cash&Carry - Contact</title>
+                <title>Oasis Cash&Carry - Contact</title>
                 <link rel="canonical" href="http://gfcc.ru/contacts" />
             </Helmet>
 
@@ -99,14 +97,14 @@ function index() {
 
             <div className="contacts_content_wrapper">
 
-                <div className="content_num_map">
+                <div className="content_num">
                     <div className="number_container">
                         <div className="number_text">
                             <p className='p1' dangerouslySetInnerHTML={{ __html: t('contact.section1.title') }}></p>
                             <p className='p2' dangerouslySetInnerHTML={{ __html: t('contact.section1.title2') }}></p>
                         </div>
 
-                        <>
+                        {/* <>
                             <Swiper
                                 effect={'cards'}
                                 grabCursor={true}
@@ -347,65 +345,128 @@ function index() {
                                 </SwiperSlide>
                             </Swiper>
 
-                        </>
+                        </> */}
 
-                        {/* <div className="numbers">
 
-                            <a href='tel:84957818888'>
-                                <span><img src={Num1} width={40} /></span>
-                                {t('contact.section1.office1')}
-                                <p>+7 (495) 781 88 88</p>
-                            </a>
 
-                            <a href='tel:89251665204'>
-                                <span><img src={Num2} width={40} /></span>
-                                {t('contact.section1.office2')}
-                                <p>+7 (925) 166 52 04</p>
-                            </a>
+                        <div className="numbers">
 
-                            <a href='tel:89254533969'>
-                                <span><img src={Num3} width={40} /></span>
-                                {t('contact.section1.office3')}
-                                <p>+7 (925) 453 39 69</p>
-                            </a>
+                            <div className="num_section head">
 
-                            <a href='tel:89645117113'>
-                                <span><img src={Num4} width={40} /></span>
-                                {t('contact.section1.office4')}
-                                <p>+7 (964) 511 71 13</p>
-                            </a>
+                                <div className="num_sec_left">
+                                    <img src={Num1} width={35} />
+                                    <p>{t('contact.section1.office1')}</p>
+                                </div>
+                                <div className="num_sec_right">
+                                    <a href='https://wa.me/79637818889' target='_blank'>8 (495) 781 88 88</a>
 
-                            <a href='tel:89672921155'>
-                                <span><img src={Num5} width={40} /></span>
-                                {t('contact.section1.office5')}
-                                <p>+7 (967) 292 11 55</p>
-                            </a>
+                                </div>
 
-                            <a href='tel:89266355181'>
-                                <span><img src={Num6} width={40} /></span>
-                                {t('contact.section1.office6')}
-                                <p>+7 (926) 635 51 81</p>
-                            </a>
+                            </div>
 
-                            <a href='tel:89060280248'>
-                                <span><img src={Num7} width={40} /></span>
-                                {t('contact.section1.office7')}
-                                <p>+7 (906) 028 02 48</p>
-                            </a>
+                            <div className="num_section xrizant">
 
-                            <a href='tel:89654118885'>
-                                <span><img src={Num8} width={40} /></span>
-                                {t('contact.section1.office8')}
-                                <p>+7 (965) 411 88 85</p>
-                            </a>
+                                <div className="num_sec_left">
+                                    <img src={Num2} width={35} />
+                                    <p>{t('contact.section1.office2')}</p>
+                                </div>
+                                <div className="num_sec_right">
+                                    <a href='https://wa.me/79251665204' target='_blank'>8 (925) 166 52 04</a>
+                                </div>
+                            </div>
 
-                        </div> */}
-                    </div>
-                    <div className="map">
-                        <div className='map_inner'>
-                            <iframe src="https://yandex.ru/map-widget/v1/?ll=37.762914%2C55.567408&mode=poi&poi%5Bpoint%5D=37.761437%2C55.567365&poi%5Buri%5D=ymapsbm1%3A%2F%2Forg%3Foid%3D57660294184&z=18.14">
-                            </iframe>
-                            {/* <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Ad053836cb0c9f0b843abbfd6a18c4b31ca836facc1b13aeca320826e49a697ed&amp;source=constructor" width={650} height={650} frameborder={0}></iframe> */}
+                            <div className="num_section plant">
+
+                                <div className="num_sec_left">
+                                    <img src={Num6} width={35} />
+                                    <p>{t('contact.section1.office6')}</p>
+                                </div>
+                                <div className="num_sec_right">
+                                    <a href='https://wa.me/79266355181' target='_blank'>8 (926) 635 51 81</a>
+
+                                </div>
+
+                            </div>
+
+                            <div className="num_section exotics">
+
+                                <div className="num_sec_left">
+                                    <img src={Num4} width={35} />
+                                    <p>{t('contact.section1.office4')}</p>
+                                </div>
+                                <div className="num_sec_right">
+                                    <a href='https://wa.me/79645117113' target='_blank'>8 (964) 511 71 13</a>
+                                    <a href='https://wa.me/79092868188' target='_blank'>8 (903) 286 81 88</a>
+
+                                </div>
+
+                            </div>
+
+                            <div className="num_section kitay">
+
+                                <div className="num_sec_left">
+                                    <img src={Num9} width={35} />
+                                    <p>{t('contact.section1.office9')}</p>
+                                </div>
+                                <div className="num_sec_right">
+                                    <a href='https://wa.me/79647818887' target='_blank'>8 (964) 781 88 87</a>
+                                </div>
+
+                            </div>
+
+                            <div className="num_section rosekenya">
+
+                                <div className="num_sec_left">
+                                    <img src={Num3} width={35} />
+                                    <p>{t('contact.section1.office3')}</p>
+                                </div>
+                                <div className="num_sec_right">
+                                    <a href='https://wa.me/79254533969' target='_blank'>8 (925) 453 39 69</a>
+                                    <a href='https://wa.me/79652398588' target='_blank'>8 (965) 239 85 88</a>
+
+                                </div>
+
+                            </div>
+
+                            <div className="num_section roseecuador">
+
+                                <div className="num_sec_left">
+                                    <img src={Num3} width={35} />
+                                    <p>{t('contact.section1.office5')}</p>
+                                </div>
+                                <div className="num_sec_right">
+                                    <a href='https://wa.me/79672921155' target='_blank'>8 (967) 292 11 55</a>
+                                    <a href='https://wa.me/79096988188' target='_blank'>8 (909) 698 81 88</a>
+
+                                </div>
+
+                            </div>
+
+                            <div className="num_section rosewater">
+
+                                <div className="num_sec_left">
+                                    <img src={Num3} width={35} />
+                                    <p>{t('contact.section1.office7')}</p>
+                                </div>
+                                <div className="num_sec_right">
+                                    <a href='https://wa.me/89060280248' target='_blank'>8 (906) 028 02 48</a>
+
+                                </div>
+
+                            </div>
+
+                            <div className="num_section upakovka">
+
+                                <div className="num_sec_left">
+                                    <img src={Num8} width={35} />
+                                    <p>{t('contact.section1.office8')}</p>
+                                </div>
+                                <div className="num_sec_right">
+                                    <a href='https://wa.me/79654118885' target='_blank'>8 (965) 411-88-85</a>
+
+                                </div>
+
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -422,11 +483,18 @@ function index() {
                 </div> */}
                 <div className="contact-form__wrapper">
 
-                    <div className="image__wrapper">
-                        <img src={CustomerSupport} />
+                    <div className="base_img">
+                        <img src={BaseIMG} alt="base_img" />
                     </div>
 
-                    <div className="form__wrapper">
+                    <div className="map">
+                        <div className='map_inner'>
+                            <iframe src="https://yandex.ru/map-widget/v1/?ll=37.762914%2C55.567408&mode=poi&poi%5Bpoint%5D=37.761437%2C55.567365&poi%5Buri%5D=ymapsbm1%3A%2F%2Forg%3Foid%3D57660294184&z=18.14">
+                            </iframe>
+                        </div>
+                    </div>
+
+                    {/* <div className="form__wrapper">
 
                         <div className="wrapper__title">
                             <h2>{t('contact.form.title')}</h2>
@@ -515,7 +583,10 @@ function index() {
                                 </div>
                             </div>
                         </form>
-                    </div>
+                    </div> */}
+
+
+
                 </div>
             </div>
 

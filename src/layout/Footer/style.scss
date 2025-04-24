@@ -2,8 +2,9 @@ footer {
     background: var(--gray);
     position: relative;
     width: 100%;
-    border-top: 0.5px solid #292929;
-    z-index: 999;
+    border-top: 0.5px solid #ffffff;
+    z-index: 9;
+    border-radius: 15px 15px 0 0;
 
     .footer_container {
         max-width: 1140px;
@@ -29,7 +30,7 @@ footer {
             display: grid;
             grid-template-columns: 1fr 2fr 2fr 2fr;
             padding: 30px 0;
-            border-bottom: 0.5px solid #292929;
+            border-bottom: 0.5px solid #ffffff;
             gap: 20px 48px;
 
 
@@ -79,7 +80,7 @@ footer {
             .contact_us {
                 display: flex;
                 flex-direction: column;
-                gap: 20px;
+                justify-content: space-between;
 
                 .social_media_container {
                     display: flex;
@@ -108,20 +109,29 @@ footer {
                     }
                 }
 
-                .adres_container {
+                .oasis_container {
                     max-width: 285px;
                     text-align: center;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
 
-
-                    .adres {
+                    h1 {
                         text-decoration: none;
                         color: var(--white);
                         font-size: 14px;
                         font-family: var(--f-regular);
-                        transition: all .3s ease;
+                    }
 
-                        &:hover {
-                            color: var(--gold);
+                    .oasis {
+
+                        img {
+                            width: 150px;
+                            transition: all .3s ease;
+
+                            &:hover {
+                                transform: scale(1.1);
+                            }
                         }
                     }
                 }
@@ -133,12 +143,25 @@ footer {
             width: 100%;
             font-size: 14px;
             // color: var(--white);
-            color: gray;
+            color: rgb(255, 255, 255);
             font-family: var(--f-regular);
             padding-top: 16px;
             display: flex;
             flex-direction: row;
             justify-content: space-between;
+
+            span {
+
+
+                a {
+                    color: rgb(255, 255, 255);
+                    transition: all .3s ease;
+
+                    &:hover {
+                        color: var(--gold);
+                    }
+                }
+            }
         }
     }
 
@@ -162,7 +185,7 @@ footer {
 
     @media screen and (max-width: 768px) {
         .footer_container {
-            padding: 28px 16px;
+            padding: 16px;
 
             .footer_container_inner {
                 display: grid;
@@ -198,16 +221,20 @@ footer {
 
                 .contact_us {
                     align-items: center;
-
+                    position: relative;
 
                     .social_media_container {
+                        position: absolute;
+                        transform: translateY(-40px);
                         display: grid;
                         grid-template-columns: 1fr 1fr;
                         gap: 15px;
                     }
 
-                    .adres_container {
-                        max-width: 151px;
+                    .oasis_container {
+                        position: absolute;
+                        transform: translateY(80px);
+                        
                     }
                 }
             }

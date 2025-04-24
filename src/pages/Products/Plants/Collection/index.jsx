@@ -87,7 +87,7 @@ const Index = () => {
       <div className="products-page__container">
 
          <HeaderRepeat
-            title={collectionData?.name[lang].replace('⥤', ' ')}
+            title={collectionData?.name[lang].replace('', ' ')}
             img={collectionData?.images[0].img}
          />
 

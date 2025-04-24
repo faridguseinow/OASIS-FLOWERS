@@ -57,7 +57,7 @@ const Index = () => {
             className="about_page">
 
             <Helmet>
-                <title>Golden Flowers Cash&Carry - About</title>
+                <title>Oasis Cash&Carry - About</title>
                 <link rel="canonical" href="http://gfcc.ru/about" />
             </Helmet>
 

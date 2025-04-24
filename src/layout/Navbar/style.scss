@@ -6,7 +6,7 @@
     top: 0;
     left: 0;
     z-index: 99;
-    background: linear-gradient(180deg, #373835, transparent);
+    background: linear-gradient(180deg, rgba(168, 168, 168, 0.753), transparent);
 
     .inner_nav {
         display: flex;
@@ -54,12 +54,13 @@
 
                 .menu_text_main {
                     position: relative;
-                    
+
 
                     &:hover {
 
                         .menu_text_main_inner {
                             transition: all .3s ease;
+
                             p {
                                 color: var(--gold);
                             }
@@ -105,7 +106,7 @@
                         transition: all .3s ease;
                         padding: 10px;
                         background: rgba(55, 56, 53, .95);
-                        border-radius: 5px;
+                        border-radius: 15px;
 
                         &::before {
                             content: '';
@@ -198,19 +199,35 @@
                     button {
                         cursor: pointer;
                         background: var(--gold);
+                        // background: radial-gradient(circle at 100%, #ecbb47, #ffeb93 50%, #ecbb47 75%, #ecbb47 75%);
                         display: flex;
                         align-items: center;
                         justify-content: center;
                         padding: 0 10px;
                         border: 0;
                         border-radius: 15px;
+                        background-size: 200% auto;
+                        background-clip: border-box;
                         transition: all 0.3s ease;
+                        animation: animatedTextGradient 8s linear infinite;
+
+                        @keyframes animatedTextGradient {
+
+                            0% {
+                                background-position: 100% center;
+                            }
+
+                            100% {
+                                background-position: 200% center;
+                            }
+                        }
 
                         span {
                             font-family: var(--f-regular);
                             color: var(--white);
                             font-size: 18px;
                             padding: 5px;
+                            z-index: 2;
                         }
 
                     }
