@@ -27,7 +27,7 @@
     font-size: 20px;
     gap: 12px;
     height: 52px;
-    border-radius: 25px;
+    border-radius: 36px;
     transition: all var(--btn-transition);
 
     svg {
@@ -45,12 +45,12 @@
 }
 
 .btn_white {
-    border: .5px solid var(--white);
-    color: var(--white);
+    border: .5px solid var(--black);
+    color: var(--black);
 
     svg {
         path {
-            fill: var(--white);
+            fill: var(--black);
         }
     }
 }
@@ -72,11 +72,11 @@
         &:hover {
             background: #056add;
             border: .5px solid #056add;
-            color: var(--white);
+            color: var(--black);
 
             svg {
                 path {
-                    fill: var(--white);
+                    fill: var(--black);
                 }
             }
         }
@@ -84,8 +84,8 @@
 
     .hover_gold {
         &:hover {
-            background: var(--gold);
-            border: .5px solid var(--gold);
+            background: var(--pink);
+            border: .5px solid var(--pink);
             color: var(--white);
 
             svg {

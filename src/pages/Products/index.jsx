@@ -32,6 +32,7 @@ const Index = () => {
       let pageValues = PagesData.find((p, i) => p.page_name === currentLocation)
       setPageData({
          headerImg: pageValues.headerWrapper.img,
+         headerVideo: pageValues.headerWrapper.video,
          headerTitle: pageValues.headerWrapper.title[lang],
          galleryTitle: pageValues.galleryTitle[lang],
          page_URL: currentLocation
@@ -50,6 +51,8 @@ const Index = () => {
          <HeaderRepeat
             title={pageData?.headerTitle}
             img={pageData?.headerImg}
+            video={pageData?.headerVideo}
+
          />
 
          <div className="products_content_wrapper">

@@ -1,20 +1,23 @@
 .Navbar {
     width: 100%;
-    height: 95px;
+    height: 100px;
     padding: 15px 64px;
     position: fixed;
     top: 0;
     left: 0;
     z-index: 99;
-    background: linear-gradient(180deg, rgba(168, 168, 168, 0.753), transparent);
 
     .inner_nav {
         display: flex;
+        max-width: 1140px;
+        padding: 6px;
         justify-content: space-between;
         align-items: center;
         width: 100%;
         height: 100%;
-        margin: 0 auto;
+        margin: auto;
+        background: var(--white);
+        border-radius: 36px;
 
         .nav_logo {
             display: flex;
@@ -25,7 +28,7 @@
                 a {
 
                     img {
-                        width: 200px;
+                        width: 150px;
 
                     }
                 }
@@ -62,12 +65,12 @@
                             transition: all .3s ease;
 
                             p {
-                                color: var(--gold);
+                                color: var(--pink);
                             }
 
                             svg {
                                 path {
-                                    fill: var(--gold);
+                                    fill: var(--pink);
                                 }
                             }
                         }
@@ -80,13 +83,14 @@
                         transition: all .3s ease;
 
                         p {
-                            font-size: 18px;
+                            font-size: 20px;
                             font-family: var(--f-regular);
-                            color: var(--white);
+                            color: var(--black);
                         }
 
                         svg {
                             width: 12px;
+                            fill: var(--black);
                         }
                     }
 
@@ -100,13 +104,13 @@
                         line-height: 2;
                         font-size: 20px;
                         font-family: var(--f-regular);
-                        color: var(--white);
+                        color: var(--black);
                         text-decoration: none;
                         width: max-content;
                         transition: all .3s ease;
                         padding: 10px;
-                        background: rgba(55, 56, 53, .95);
-                        border-radius: 15px;
+                        background: var(--white);
+                        border-radius: 36px;
 
                         &::before {
                             content: '';
@@ -130,12 +134,12 @@
                                     padding: 0 15px;
                                     font-size: 20px;
                                     font-family: var(--f-regular);
-                                    color: var(--white);
+                                    color: var(--black);
                                     transition: all .3s ease;
 
                                     &:hover {
                                         // transform: scale(1.05);
-                                        color: var(--gold);
+                                        color: var(--pink);
                                     }
                                 }
                             }
@@ -148,37 +152,10 @@
                     }
                 }
 
-                .camera {
-                    border: 1px solid var(--white);
-                    border-radius: 15px;
-                    padding: 0 10px;
-                    transition: all .3s ease;
-
-                    &:hover {
-                        background: var(--gold);
-                        border: 1px solid var(--gold);
-
-                        a .camera_inner p {
-                            color: var(--white);
-
-                        }
-                    }
-
-                    a {
-                        .camera_inner {
-                            gap: 0;
-
-                            p {
-                                padding: 5px;
-                            }
-                        }
-                    }
-                }
             }
         }
 
         .nav_right {
-
             display: flex;
             align-items: center;
             justify-content: flex-end;
@@ -198,14 +175,14 @@
 
                     button {
                         cursor: pointer;
-                        background: var(--gold);
+                        background: var(--pink);
                         // background: radial-gradient(circle at 100%, #ecbb47, #ffeb93 50%, #ecbb47 75%, #ecbb47 75%);
                         display: flex;
                         align-items: center;
                         justify-content: center;
                         padding: 0 10px;
                         border: 0;
-                        border-radius: 15px;
+                        border-radius: 36px;
                         background-size: 200% auto;
                         background-clip: border-box;
                         transition: all 0.3s ease;
@@ -238,22 +215,44 @@
                 display: flex;
                 align-items: center;
                 gap: 10px;
+                padding-right: 6px;
 
                 span {
                     font-family: var(--f-regular);
-                    color: var(--white);
+                    color: var(--black);
                     font-size: 18px;
                     padding-left: 5px;
                     cursor: pointer;
 
                     &:hover {
-                        color: var(--gold);
+                        color: var(--pink);
+                    }
+                }
+            }
+
+            .theme_switcher {
+                padding-right: 16px;
+
+
+                .theme-toggle-btn {
+                    cursor: pointer;
+                    border: none;
+                    padding: 0;
+                    background: none;
+                    
+
+                    span {
+                        background: none;
+                        
                     }
                 }
             }
 
             .nav_hamburger {
                 display: none;
+                background: var(--white);
+                padding: 10px;
+                border-radius: 36px;
 
                 .burger-checkbox {
                     position: absolute;
@@ -266,9 +265,9 @@
                     position: relative;
                     border: none;
                     background: transparent;
-                    width: 40px;
-                    height: 26px;
-                    margin: 30px auto;
+                    width: 35px;
+                    height: 14px;
+                    padding: 5px;
                 }
 
                 .burger::before,
@@ -280,13 +279,13 @@
                     width: 100%;
                     height: 3px;
                     border-radius: 3px;
-                    background: var(--white);
+                    background: var(--black);
                 }
 
                 .burger::before {
                     top: 0;
                     height: 3px;
-                    box-shadow: 0 11px 0 var(--white);
+                    box-shadow: 0 11px 0 var(--black);
                     transition: box-shadow .3s .15s, top .3s .15s, transform .3s;
                 }
 
@@ -301,14 +300,14 @@
 
             .nav_hamburger[data-isactive="true"] {
                 .burger::before {
-                    top: 11px;
+                    top: 6px;
                     transform: rotate(45deg);
                     box-shadow: 0 6px 0 rgba(101, 101, 101, 0);
                     transition: box-shadow .15s, top .3s, transform .3s .15s;
                 }
 
                 .burger::after {
-                    bottom: 11px;
+                    bottom: 6px;
                     transform: rotate(-45deg);
                     transition: bottom .3s, transform .3s .15s;
                 }
@@ -320,7 +319,9 @@
         padding: 15px 40px;
 
         .inner_nav {
+            padding: 0;
             margin: 0;
+            background: none;
 
             .nav_logo {
 
@@ -344,6 +345,10 @@
             }
 
             .nav_right {
+                .theme_switcher {
+                    padding-right: 0;
+    
+                }
 
                 .localization__wrapper {
                     display: none;
@@ -373,6 +378,8 @@
             }
 
             .nav_right {
+
+                gap: 17px;
                 .nav_hamburger {
                     display: block;
                 }

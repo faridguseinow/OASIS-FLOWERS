@@ -6,11 +6,9 @@ import Products from '@/pages/Products';
 import FlowersCollection from '@/pages/Products/Flowers/Collection';
 import PlantsCollection from '@/pages/Products/Plants/Collection';
 import SingleProduct from '@/pages/SingleProduct';
-import Cooperation from '@/pages/Cooperation';
+import Suppliers from '@/pages/Suppliers';
 import Contacts from '@/pages/Contacts';
 import About from '@/pages/About';
-import Cameras from '@/pages/Cameras';
-import PriceList from '@/pages/PriceList';
 
 import Footer from '@/layout/Footer';
 
@@ -34,15 +32,13 @@ const AnimatedRoutes = () => {
             <Route path='/products/plants/:collection' element={<PlantsCollection />} />
 
             <Route path='/products/accessories' element={<Products />} />
-            <Route path='/cooperation' element={<Cooperation />} />
+            <Route path='/suppliers' element={<Suppliers />} />
 
             {/* SINGLE PRODUCT PAGE */}
             <Route path='/product' element={<SingleProduct />} />
 
             <Route path='/contacts' element={<Contacts />} />
             <Route path='/about' element={<About />} />
-            <Route path='/cameras' element={<Cameras />} />
-            <Route path='/pricelist' element={<PriceList />} />
 
             <Route
                path="*"

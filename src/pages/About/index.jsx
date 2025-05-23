@@ -31,19 +31,19 @@ const Index = () => {
 
     let sliderFlowers = [
         {
-            img: 'https://sun9-67.userapi.com/impg/jX-0ApmiVvwI51S32oNOVZFJDVry9zG_PjngPw/MTF0ZWxy5jw.jpg?size=2560x1707&quality=95&sign=05ad46b891ea73410dcdb8d68e3e4c85&type=album'
+            img: 'https://sun9-56.userapi.com/impg/5dNUf3eiucxVI3f-Z3JN1jKSurSQrlPE0Y2nDw/i3NfOpgRrcI.jpg?size=1920x1080&quality=95&sign=4c4757aff1a045eb5e5c6546ee1a1ee0&type=album'
         }
     ]
 
     let sliderPlants = [
         {
-            img: 'https://sun9-10.userapi.com/impg/WMxh6QQEBLAE3mT5MYg-M00Jz0wDLIC4cNmGkw/y49aae7hQG8.jpg?size=1834x1222&quality=95&sign=956a7254935c5a03df2af232a23f5f59&type=album'
+            img: 'https://sun9-15.userapi.com/impg/QuCxJ1XBp2-YtiokNfBuSX973Ku-YEwL8pPJsA/VJdN4XprH9A.jpg?size=1920x1080&quality=95&sign=a00af989bc3dd4fd5cdf87bc956aa32a&type=album'
         }
     ]
 
     let sliderAccessories = [
         {
-            img: 'https://sun9-79.userapi.com/impg/3QHsB5ssjUoeeEwG05VMMTKsdBBB2MvPDQ3-MA/yUB1CLbahA0.jpg?size=1080x720&quality=95&sign=cc1394fc131b7401ce46f7e4cbc1cd85&type=album'
+            img: 'https://sun9-22.userapi.com/impg/AZ3uXndPgVvxYskZf_yH2XyhdclCLvcwBkGUuA/iQf35bXsN4E.jpg?size=1920x1078&quality=95&sign=74bce8310487bb00509a9031ce8b08d0&type=album'
         }
     ]
 
@@ -58,7 +58,7 @@ const Index = () => {
 
             <Helmet>
                 <title>Oasis Cash&Carry - About</title>
-                <link rel="canonical" href="http://gfcc.ru/about" />
+                <link rel="canonical" href="http://oasisflowers.ru/about" />
             </Helmet>
 
             <div className="about_content_wrapper">
@@ -105,7 +105,7 @@ const Index = () => {
                                         <img src={ProductsIcon} />
                                     </div>
                                     <div className="products_count count">
-                                        <h1><CountUp end={500} duration={2} />+</h1>
+                                        <h1><CountUp end={800} duration={2} />+</h1>
                                     </div>
                                     <div className="products_text num_text">
                                         <span>{t('about.header.num3')}</span>
@@ -117,7 +117,7 @@ const Index = () => {
                                         <img src={ReviewsIcon} />
                                     </div>
                                     <div className="starts_count count">
-                                        <h1><CountUp end={5} duration={2} />+</h1>
+                                        <h1><CountUp end={24} duration={2} />/7</h1>
                                     </div>
                                     <div className="starts_text num_text">
                                         <span>{t('about.header.num4')}</span>

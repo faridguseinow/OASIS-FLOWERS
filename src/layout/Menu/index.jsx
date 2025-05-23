@@ -2,7 +2,6 @@ import React, { useEffect } from 'react';
 import './style.scss';
 import $ from 'jquery';
 
-import VideoCam from '@/assets/icons/videocam.png'
 
 //import react router dom
 import { Link } from 'react-router-dom';
@@ -65,26 +64,31 @@ const Index = ({ menuIsActive, setMenuIsActive }) => {
                         <p>{t('navbar.whoWeAre')}</p>
                     </div>
                 </Link>
-                <Link to={'/cooperation'} onClick={menuHide}>
+                <Link to={'/suppliers'} onClick={menuHide}>
                     <div className='menu_text_main_inner'>
-                        <p>{t('navbar.cooperation')}</p>
+                        <p>{t('navbar.suppliers')}</p>
+                    </div>
+                </Link>
+                <Link to={'https://opt.oasis-gc.ru/'} target='_blank'>
+                    <div className='menu_text_main_inner'>
+                        <p>{t('navbar.gardenCenter')}</p>
                     </div>
                 </Link>
                 <Link to={'/contacts'} onClick={menuHide}>
                     <div className='menu_text_main_inner'>
-                        <p>{t('navbar.contact')}</p>
+                        <p>{t('navbar.contacts')}</p>
                     </div>
                 </Link>
 
                 <div className='localization__wrapper'>
                     <span
                         onClick={() => changeLanguage('ru')}
-                        style={{ color: i18n.language === 'ru' && 'var(--gold)' }}
+                        style={{ color: i18n.language === 'ru' && 'var(--pink)' }}
                     >RU</span>
                     <span>|</span>
                     <span
                         onClick={() => changeLanguage('en')}
-                        style={{ color: i18n.language === 'en' && 'var(--gold)' }}
+                        style={{ color: i18n.language === 'en' && 'var(--pink)' }}
                     >EN</span>
                 </div>
             </div>
@@ -92,7 +96,7 @@ const Index = ({ menuIsActive, setMenuIsActive }) => {
             <div className="fixed-img__wrapper"></div>
 
             <div className="phone_number">
-                <a href='tel:84957818888'>+7 (495) 781 88 88</a>
+                <a href='tel:84956658888'>+7 (495) 665 88 88</a>
             </div>
         </div>
     )

@@ -8,8 +8,6 @@ import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 // Import Swiper styles
 import "swiper/css";
 
-
-
 function Index({ options, loop, speed }) {
 
     return (

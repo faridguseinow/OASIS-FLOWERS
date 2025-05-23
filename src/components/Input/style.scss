@@ -10,16 +10,16 @@
       outline: none;
       height: 56px;
       transition: all .25s ease;
-      border-radius: 5px;
+      border-radius: 32px;
    }
 
    .input_white {
-      color: var(--white);
+      color: var(--black);
       // border: .5px solid rgba(255, 255, 255, 0.5);
-      border: .5px solid var(--white);
+      border: .5px solid var(--black);
 
       // &:focus {
-      //    border: .5px solid var(--white);
+      //    border: .5px solid var(--black);
       // }
    }
 
@@ -42,14 +42,14 @@
 
          path {
             transition: all .25s ease;
-            fill: var(--white);
+            fill: var(--black);
          }
       }
 
       &:hover {
          .search_icon {
             path {
-               fill: var(--gold);
+               fill: var(--pink);
             }
          }
       }

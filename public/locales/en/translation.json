@@ -6,12 +6,12 @@
       "accessories": "Accessories",
       "aboutUs": "About us",
       "whoWeAre": "Who we are",
-      "cooperation": "Cooperation",
-      "contact": "Contact",
+      "gardenCenter": "Garden Center",
+      "suppliers": "Suppliers",
+      "contacts": "Contacts",
       "priceList": "Price list",
       "showcase": "Showcase",
       "pricelist": "Price list"
-
    },
    "footer": {
       "flowers": {
@@ -42,10 +42,13 @@
       "sitecraft": "Website created by Farid Huseynov."
    },
    "home": {
-      "headerDesc": "EVERYTHING FOR FLOWER BUSINESS",
+      "headerDesc1": "WHOLESALE FLOWER BASE | BALASHIKHA",
+      "headerDesc2": "EVERYTHING FOR FLOWER BUSINESS",
+      "headerDesc3": "Scan QR for delivery",
+      "headerDesc4": "Tap to Delivery",
       "aboutSection": {
-         "title": "Briefly about us:",
-         "desc": "OasisFlowers Cash&Carry has been a supplier of flowers, plants and accessories from leading global manufacturers to the Russian market for decades and is one of the largest wholesale bases for the flower business in the Moscow region. We have wholesale sales of cut flowers, potted plants, packaging materials. Here you will find everything for the flower business!",
+         "title": "Delivery",
+         "desc": "We deliver goods in Moscow and the Moscow region. Delivery to cities in Russia is carried out to the transport company you work with. To calculate the cost of delivery, call:",
          "btnText": "Read more"
       },
       "collectionSection": {
@@ -68,7 +71,7 @@
    "about": {
       "header": {
          "title": "We are the largest flower base in the region!",
-         "desc": "OasisFlowers Cash&Carry has been a supplier of flowers, plants and accessories from leading global manufacturers to the Russian market for decades and one of the largest wholesale bases for the flower business in the Moscow region. Here you will find everything for the flower businness. We supply flowers, plants and accessories from Holland, Italy, Germany, Spain, Israel, USA, China, Turkey, Azerbaijan, Armenia, Ecuador, Costa Rica, Colombia, Ethiopia, Uganda, Kenya and others. In addition, the warehouse always has products for plant care: soil and soil mixtures, mineral and organic fertilizers, top dressing at wholesale prices. For owners of flower shops and florists, a large assortment of accessories for creating bouquets is presented.",
+         "desc": "Oasis Cash&Carry has been a supplier of flowers, plants and accessories from leading global manufacturers to the Russian market for decades and one of the largest wholesale bases for the flower business in the Moscow region. Here you will find everything for the flower businness. We supply flowers, plants and accessories from Holland, Italy, Germany, Spain, Israel, USA, China, Turkey, Azerbaijan, Armenia, Ecuador, Costa Rica, Colombia, Ethiopia, Uganda, Kenya and others. In addition, the warehouse always has products for plant care: soil and soil mixtures, mineral and organic fertilizers, top dressing at wholesale prices. For owners of flower shops and florists, a large assortment of accessories for creating bouquets is presented.",
          "num1": "YEARS OF EXPERIENCE IN THE FLOWER BUSINESS",
          "num2": "THE BEST PLANTATIONS COLLABORATE WITH US",
          "num3": "CLIENTS COLLABORATE WITH US",
@@ -99,7 +102,7 @@
          }
       }
    },
-   "contact": {
+   "contacts": {
       "title": "Contacts",
       "section1": {
          "title": "Call for more information. We work <span>24/7</span>!",
@@ -112,7 +115,8 @@
          "office6": "Houseplants:",
          "office7": "Rose on water:",
          "office8": "Packaging:",
-         "office9": "Flowers from China:"
+         "office9": "Flowers from China:",
+         "office10": "Delivery:"
       },
       "form": {
          "title": "Contact us",

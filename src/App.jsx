@@ -9,13 +9,15 @@ import ScrollToTop from '@/components/ScrollToTop';
 import Navbar from '@/layout/Navbar';
 import NavbarMenu from '@/layout/Menu';
 import AnimatedRoutes from '@/routes/index';
+import { useTheme } from '@/useTheme'; // ✅ подключаем useTheme
 
 //Import React router dom
 import { BrowserRouter as Router, useLocation } from 'react-router-dom';
 // import Loading from '@/layout/Loading/index';
 
 function App() {
-  const [menuIsActive, setMenuIsActive] = useState(null);
+  const [menuIsActive, setMenuIsActive ] = useState(null);
+  const { theme, toggleTheme } = useTheme(); // ✅ получаем из кастомного хука
 
   ///PAGE SCROLL TO TOP
   function ScrollToTopFunc() {
@@ -37,7 +39,7 @@ function App() {
         {/* <Loading /> */}
         <div className="fixed-img__wrapper"></div>
 
-        <Navbar setMenuIsActive={setMenuIsActive} menuIsActive={menuIsActive} />
+        <Navbar setMenuIsActive={setMenuIsActive} menuIsActive={menuIsActive} toggleTheme={toggleTheme} theme={theme} />
         <NavbarMenu setMenuIsActive={setMenuIsActive} menuIsActive={menuIsActive} />
 
         {/* ANIMATED ROUTE */}

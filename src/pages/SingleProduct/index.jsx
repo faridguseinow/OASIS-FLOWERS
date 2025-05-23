@@ -114,7 +114,7 @@ const Index = () => {
                {
                   productData?.desc[lang].length > 150 &&
                   <span
-                     style={{ fontSize: '18px', fontFamily: 'var(--f-regular)', color: 'var(--gold)', cursor: 'pointer' }}
+                     style={{ fontSize: '18px', fontFamily: 'var(--f-regular)', color: 'var(--pink)', cursor: 'pointer' }}
                      onClick={() => showMore ? setShowMore(false) : setShowMore(true)}
                   > {showMore ? ` ${t('showLess')}` : ` ... ${t('showMore')}`}</span>
                }
@@ -172,7 +172,7 @@ const Index = () => {
                            {
                               productData?.care[lang].length > 150 &&
                               <span
-                                 style={{ fontSize: '18px', fontFamily: 'var(--f-regular)', color: 'var(--gold)', cursor: 'pointer' }}
+                                 style={{ fontSize: '18px', fontFamily: 'var(--f-regular)', color: 'var(--pink)', cursor: 'pointer' }}
                                  onClick={() => showMoreCare ? setShowMoreCare(false) : setShowMoreCare(true)}
                               > {showMoreCare ? ` ${t('showLess')}` : ` ... ${t('showMore')}`}</span>
                            }
@@ -187,7 +187,7 @@ const Index = () => {
                            {
                               productData?.assortment[lang].length > 50 &&
                               <span
-                                 style={{ fontSize: '18px', fontFamily: 'var(--f-regular)', color: 'var(--gold)', cursor: 'pointer' }}
+                                 style={{ fontSize: '18px', fontFamily: 'var(--f-regular)', color: 'var(--pink)', cursor: 'pointer' }}
                                  onClick={() => showMoreAssortment ? setShowMoreAssortment(false) : setShowMoreAssortment(true)}
                               > {showMoreAssortment ? ` ${t('showLess')}` : ` ... ${t('showMore')}`}</span>
                            }

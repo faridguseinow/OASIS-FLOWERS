@@ -1,8 +1,8 @@
 {
     "name": "Oasis",
     "short_name": "oasisflowers",
-    "background_color": "rgba(0, 0, 0, 1)",
-    "theme_color": "rgba(0, 0, 0, 1)",
+    "background_color": "#fff",
+    "theme_color": "#fff",
     "start_url": "/",
     "scope": "/",
     "display": "standalone",

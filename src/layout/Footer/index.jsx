@@ -3,7 +3,7 @@ import React from 'react'
 import './style.scss'
 
 //Import Images
-import LogoMini from '@/assets/icons/logo_mini.png'
+import LogoMini from '@/assets/icons/oasis_logo_white.svg'
 import TGimg from '@/assets/icons/social/icons8-telegram.svg'
 import VKimg from '@/assets/icons/social/icons8-vk.svg'
 import Insimg from '@/assets/icons/social/icons8-instagram.svg'
@@ -29,7 +29,7 @@ const Index = () => {
             <div className="footer_container">
 
                 <div className="f_cont_logo logo_1">
-                    <img src={LogoMini} alt="logo mini" />
+                    <img src={LogoMini} alt="logo mini"/>
                 </div>
 
                 <div className="footer_container_inner">
@@ -83,7 +83,7 @@ const Index = () => {
                             <h1>
                                 Партнер:
                             </h1>
-                            <Link to={'https://opt.oasis-gc.ru/'} target='_blank' className='oasis'>
+                            <Link to={'https://www.gfcc.ru/'} target='_blank' className='oasis'>
                                 <img src={OasisLogo} alt="oasis" />
                             </Link>
 

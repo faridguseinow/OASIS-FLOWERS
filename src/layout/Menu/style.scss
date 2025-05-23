@@ -8,6 +8,7 @@
     top: -100%;
     opacity: 0;
     left: 0;
+    background: var(--white);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -35,8 +36,8 @@
             .menu_text_main_inner {
                 display: flex;
                 align-items: center;
-                font-family: var(--f-medium);
-                color: var(--white);
+                font-family: var(--f-regular);
+                color: var(--black);
                 font-size: 30px;
                 text-decoration: none;
             }
@@ -49,7 +50,7 @@
 
             span {
                 font-family: var(--f-regular);
-                color: var(--white);
+                color: var(--black);
                 font-size: 24px;
                 padding-left: 5px;
                 cursor: pointer;
@@ -79,9 +80,9 @@
         z-index: 1;
 
         a {
-            font-size: 18px;
+            font-size: 20px;
             font-family: var(--f-regular);
-            color: var(--white);
+            color: var(--black);
         }
     }
 }

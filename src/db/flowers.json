@@ -11,7 +11,7 @@
       },
       "images": [
          {
-            "img": "https://mykaleidoscope.ru/uploads/posts/2021-10/1635269788_54-mykaleidoscope-ru-p-krasnaya-gvozdika-tsveti-62.jpg"
+            "img": "https://rose25.ru/upload/iblock/383/rw4kaj790p47g1zedr06d5ktbhms1qji.jpg"
          }
       ],
       "items": [
@@ -22,16 +22,13 @@
             },
             "images": [
                {
-                  "img": "https://sputnikspb.com/image/cache/catalog/product/gvozdika/Odnogolovaya/Green%20Trick/gvozdika-tureckaya-diantus-barbatus-grin-trik-5-800x800.jpg"
+                  "img": "https://photo.freshportal.delivery/iri/31f8afbbc8e22e4f23cfa47dc0368530/700x700@max-ffffff/39862743.jpg"
                },
                {
                   "img": "https://www.roza4u.ru/image/catalog/iris/gvozdika-tureckaja-jarko-rozovaja-2.jpg"
                },
                {
                   "img": "https://amsterflowers.ru/assets/images/products/742/gvozdikaimg-4915-(2).jpg"
-               },
-               {
-                  "img": "https://photo.freshportal.delivery/iri/31f8afbbc8e22e4f23cfa47dc0368530/700x700@max-ffffff/39862743.jpg"
                }
             ],
             "desc": {
@@ -58,7 +55,7 @@
                   "img": "https://permflower.ru/upload/iblock/2fc/2fcc0636079f73384a632ce7a0e579b2.jpg"
                },
                {
-                  "img": "https://bloomsbythebox.sirv.com/img/product/xlarge/01288A__Dianthus_Green_Trick.jpg?q=100"
+                  "img": "https://klumba.tomsk.ru/image/cache/data/flowers/gvozdika_grin_tik_381x508.jpg"
                },
                {
                   "img": "https://www.roza4u.ru/image/catalog/gvozdika/IMG_3222230.jpg.jpg"
@@ -465,111 +462,108 @@
       ],
       "items": [
          {
-           "name": {
-              "en": "Deco",
-              "ru": "Деко"
-           },
-           "images": [
-              {
-                 "img": "https://www.woolmans.com/cdn/shop/files/CHR-294z.jpg?v=1721852282&width=2048"
-              },
-              {
-                 "img": "https://btfgroup.com/wp-content/uploads/2021/05/Chrysanthemum-Deco-Snowdown-Peach-600x600-5.jpg"
-              },
-              {
-                 "img": "https://rukminim2.flixcart.com/image/720/864/xif0q/plant-seed/3/r/b/30-chrysanthemum-flower-mix-seeds-mix-seeds-for-chrysanthemum-original-imaghe2csnk4pgdp.jpeg?q=60&crop=false"
-              },
-              {
-                 "img": "https://rukminim2.flixcart.com/image/850/1000/xif0q/plant-seed/0/j/e/75-chrysanthemum-flower-seeds-c-747-kanaya-original-imaghmweugap9mm8.jpeg?q=90&crop=false"
-              }
-           ],
-           "desc": {
-              "en": "Disbud chrysanthemum  – one single large flower per stem produced by removing all side buds when plant was young.",
-              "ru": "Одноголовые хризантемы – один крупный цветок на стебле, образующийся путем удаления всех боковых почек, когда растение было молодым."
-           },
-           "plantation": "Zentoo, Vannova, Dekker, Retine, Decorum",
-           "quantity": 10,
-           "color": {
-              "en": "White Yellow Gold Pink Red Orange Cream Dyed",
-              "ru": "Белый Желтый Золотый Розовый Красный Оранжевый Кремовый Крашеный"
-           },
-           "height": 70,
-           "assortment": {
-              "en": "Anastasia white, Anastasia yellow, Undercover, Antonov, Antonov painted, Brasiliana, Gagarin, Kalimba, Kalimba Salmon, Kasandra, Lamira, Magnum, Magnum yellow, Momoko, Peter, Pip, Peep red, Pip Pretty, Rossano, Souvenir, Super Bowl, Etrusco Pink",
-              "ru": "Анастасия белая, Анастасия желтая, Андекавер, Антонов, Антонов крашеный, Брасилиана, Гагарин, Калимба, Калимба Салмон, Касандра, Ламира, Магнум, Магнум желтый, Момоко, Пётр, Пип, Пип красный, Пип Претти, Россано, Сувенир, Супербоул, Этруско Пинк"
-           }
-        },
+            "name": {
+               "en": "Deco",
+               "ru": "Деко"
+            },
+            "images": [
+               {
+                  "img": "https://btfgroup.com/wp-content/uploads/2021/05/Chrysanthemum-Deco-Snowdown-Peach-600x600-5.jpg"
+               },
+               {
+                  "img": "https://rukminim2.flixcart.com/image/720/864/xif0q/plant-seed/3/r/b/30-chrysanthemum-flower-mix-seeds-mix-seeds-for-chrysanthemum-original-imaghe2csnk4pgdp.jpeg?q=60&crop=false"
+               },
+               {
+                  "img": "https://rukminim2.flixcart.com/image/850/1000/xif0q/plant-seed/0/j/e/75-chrysanthemum-flower-seeds-c-747-kanaya-original-imaghmweugap9mm8.jpeg?q=90&crop=false"
+               }
+            ],
+            "desc": {
+               "en": "Disbud chrysanthemum  – one single large flower per stem produced by removing all side buds when plant was young.",
+               "ru": "Одноголовые хризантемы – один крупный цветок на стебле, образующийся путем удаления всех боковых почек, когда растение было молодым."
+            },
+            "plantation": "Zentoo, Vannova, Dekker, Retine, Decorum",
+            "quantity": 10,
+            "color": {
+               "en": "White Yellow Gold Pink Red Orange Cream Dyed",
+               "ru": "Белый Желтый Золотый Розовый Красный Оранжевый Кремовый Крашеный"
+            },
+            "height": 70,
+            "assortment": {
+               "en": "Anastasia white, Anastasia yellow, Undercover, Antonov, Antonov painted, Brasiliana, Gagarin, Kalimba, Kalimba Salmon, Kasandra, Lamira, Magnum, Magnum yellow, Momoko, Peter, Pip, Peep red, Pip Pretty, Rossano, Souvenir, Super Bowl, Etrusco Pink",
+               "ru": "Анастасия белая, Анастасия желтая, Андекавер, Антонов, Антонов крашеный, Брасилиана, Гагарин, Калимба, Калимба Салмон, Касандра, Ламира, Магнум, Магнум желтый, Момоко, Пётр, Пип, Пип красный, Пип Претти, Россано, Сувенир, Супербоул, Этруско Пинк"
+            }
+         },
          {
-           "name": {
-              "en": "Spray",
-              "ru": "Кустовые"
-           },
-           "images": [
-              {
-                 "img": "https://ludaflower.com/wp-content/uploads/2018/06/WhiteChr.jpg"
-              },
-              {
-                 "img": "https://cdn11.bigcommerce.com/s-i7i23daso6/images/stencil/original/products/7028/25736/Chrysanthemum_Pompom_Rose_0006978__08703.1638360658.jpg"
-              },
-              {
-                 "img": "https://www.woolmans.com/cdn/shop/files/10-young-plants-1-of-each-chrysanthemum-cut-flower-bloom-and-spray-collection-44367488647442.jpg?v=1702687679&width=800"
-              },
-              {
-                 "img": "https://plantura.garden/uk/wp-content/uploads/sites/2/2022/08/chrysanthemum-plants-pots-1024x683.jpg?x63657"
-              }
-           ],
-           "desc": {
-              "en": "In spray varieties, only the large apical bud is removed and the lateral buds are retained.",
-              "ru": "У кустовых сортов удаляется только крупная верхушечная почка, а боковые почки сохраняются."
-           },
-           "plantation": "Zentoo, Vannova, Dekker, Retine, Decorum, Beyond",
-           "quantity": 5,
-           "color": {
-              "en": "White Yellow Green Pink Red Orange Cream Dyed",
-              "ru": "Белый Желтый Зеленый Розовый Красный Оранжевый Кремовый Крашеный"
-           },
-           "height": 70,
-           "assortment": {
-              "en": "Altai, Altai Yellow, Bacardi Yellow, Bacardi Dyed, Baller Dark, Baller Pink, Baltika, Baltika Yellow, Baltika Painted, Baltika Cream, Baltika Pink, Baltika Salmon, Baltika Beyond, Bolte, Bombardino, Bontempi, Bonus, Baby, Gaidar, Gaidar Yellow, Guinthus, Delian Yellow, Julin, Euro White, Euro Yellow, Kalimba, Katinka, Katinka Salmon, Kaya, Code Green, Commander, Commander Painted, Commander Pink, Crown, Lamira, Let's Go Pink, Limoncello, Mexicano, Newton, Optimist Pink, Pastel White, Pastel Yellow, Pastela Pink, Prosecco, Purple Star, Joy, Joy Cream, Rihana, Serenity, Serenity Purple, Serenity Suite, Softon, Stellini, Stress, Souvenir, Tendenza, Topspin, Fabianna, Flarstar, Chick, Chick Cream, Abby",
-              "ru": "Алтай, Алтай Желтый, Бакарди Желтый, Бакарди Крашеный, Баллер Дарк, Баллер Пинк, Балтика, Балтика Желтая, Балтика Крашеная, Балтика Крем, Балтика Розовая, Балтика Салмон, Балтика Beyond, Болте, Бомбардино, Бонтемпи, Бонус, Бэби, Гайдар, Гайдар Желтый, Гуинтус, Делиан Желтый, Джулин, Евро Белый, Евро Желтый, Калимба, Катинка, Катинка Салмон, Кая, Код Грин, Командир, Командир Крашеный, Командир Розовый, Корона, Ламира, Летс Го Пинк, Лимончелло, Мексикано, Ньютон, Оптимист Розовый, Пастела Белая, Пастела Желтая, Пастела Пинк, Просекко, Пурпл Стар, Радость, Радость Крем, Рихана, Серенити, Серенити Пурпл, Серенити Свит, Софтон, Стеллини, Стреса, Сувенир, Тенденза, Топспин, Фабианна, Фларстар, Чик, Чик Крем, Эбби"
-           }
-        },
+            "name": {
+               "en": "Spray",
+               "ru": "Кустовые"
+            },
+            "images": [
+               {
+                  "img": "https://ludaflower.com/wp-content/uploads/2018/06/WhiteChr.jpg"
+               },
+               {
+                  "img": "https://cdn11.bigcommerce.com/s-i7i23daso6/images/stencil/original/products/7028/25736/Chrysanthemum_Pompom_Rose_0006978__08703.1638360658.jpg"
+               },
+               {
+                  "img": "https://www.woolmans.com/cdn/shop/files/10-young-plants-1-of-each-chrysanthemum-cut-flower-bloom-and-spray-collection-44367488647442.jpg?v=1702687679&width=800"
+               },
+               {
+                  "img": "https://plantura.garden/uk/wp-content/uploads/sites/2/2022/08/chrysanthemum-plants-pots-1024x683.jpg?x63657"
+               }
+            ],
+            "desc": {
+               "en": "In spray varieties, only the large apical bud is removed and the lateral buds are retained.",
+               "ru": "У кустовых сортов удаляется только крупная верхушечная почка, а боковые почки сохраняются."
+            },
+            "plantation": "Zentoo, Vannova, Dekker, Retine, Decorum, Beyond",
+            "quantity": 5,
+            "color": {
+               "en": "White Yellow Green Pink Red Orange Cream Dyed",
+               "ru": "Белый Желтый Зеленый Розовый Красный Оранжевый Кремовый Крашеный"
+            },
+            "height": 70,
+            "assortment": {
+               "en": "Altai, Altai Yellow, Bacardi Yellow, Bacardi Dyed, Baller Dark, Baller Pink, Baltika, Baltika Yellow, Baltika Painted, Baltika Cream, Baltika Pink, Baltika Salmon, Baltika Beyond, Bolte, Bombardino, Bontempi, Bonus, Baby, Gaidar, Gaidar Yellow, Guinthus, Delian Yellow, Julin, Euro White, Euro Yellow, Kalimba, Katinka, Katinka Salmon, Kaya, Code Green, Commander, Commander Painted, Commander Pink, Crown, Lamira, Let's Go Pink, Limoncello, Mexicano, Newton, Optimist Pink, Pastel White, Pastel Yellow, Pastela Pink, Prosecco, Purple Star, Joy, Joy Cream, Rihana, Serenity, Serenity Purple, Serenity Suite, Softon, Stellini, Stress, Souvenir, Tendenza, Topspin, Fabianna, Flarstar, Chick, Chick Cream, Abby",
+               "ru": "Алтай, Алтай Желтый, Бакарди Желтый, Бакарди Крашеный, Баллер Дарк, Баллер Пинк, Балтика, Балтика Желтая, Балтика Крашеная, Балтика Крем, Балтика Розовая, Балтика Салмон, Балтика Beyond, Болте, Бомбардино, Бонтемпи, Бонус, Бэби, Гайдар, Гайдар Желтый, Гуинтус, Делиан Желтый, Джулин, Евро Белый, Евро Желтый, Калимба, Катинка, Катинка Салмон, Кая, Код Грин, Командир, Командир Крашеный, Командир Розовый, Корона, Ламира, Летс Го Пинк, Лимончелло, Мексикано, Ньютон, Оптимист Розовый, Пастела Белая, Пастела Желтая, Пастела Пинк, Просекко, Пурпл Стар, Радость, Радость Крем, Рихана, Серенити, Серенити Пурпл, Серенити Свит, Софтон, Стеллини, Стреса, Сувенир, Тенденза, Топспин, Фабианна, Фларстар, Чик, Чик Крем, Эбби"
+            }
+         },
          {
-           "name": {
-              "en": "Santini",
-              "ru": "Сантини"
-           },
-           "images": [
-              {
-                 "img": "https://shop.flowersforflorists.co.uk/user/products/flowers/104414.jpg"
-              },
-              {
-                 "img": "https://thursd.com/storage/media/37078/Chrysanthemum-Santini-Maverick-White-FeelHarmony-on-Thursd.jpg?1646224600825"
-              },
-              {
-                 "img": "https://avatars.dzeninfra.ru/get-zen_doc/1852570/pub_64f6eef0a35e890be432ae5c_64f6eef7a35e890be432b131/scale_1200"
-              },
-              {
-                 "img": "https://opt-fp.ru/uploads/store/product/698f8b3a939011eb80e2005056aebb19_59f702ae9b1011eb80e4005056aebb19.jpg"
-              }
-           ],
-           "desc": {
-              "en": "Santini chrysanthemums are available in a wide range of colors, including white, yellow, pink, red, purple, and more. They are known for their long-lasting blooms, making them a favoured choice for floral arrangements and bouquets. Unlike some other chrysanthemum varieties, Santinis do not have a strong scent, which can be beneficial for individuals who are sensitive to strong floral fragrances.",
-              "ru": "Хризантемы Сантини доступны в широком диапазоне цветов, включая белый, желтый, розовый, красный, фиолетовый и другие. Они известны своим длительным цветением, что делает их предпочтительным выбором для цветочных композиций и букетов. В отличие от некоторых других сортов хризантем, Сантини не имеют сильного запаха, что может быть полезно для людей, чувствительных к сильным цветочным ароматам."
-           },
-           "plantation": "Zentoo, Vannova, Kwekerij Waalzicht",
-           "quantity": 25,
-           "color": {
-              "en": "White Yellow Green Pink Red Orange Cream Dyed",
-              "ru": "Белый Желтый Зеленый Розовый Красный Оранжевый Кремовый Крашеный"
-           },
-           "height": 50,
-           "assortment": {
-              "en": "Santini Dyed, Santini Mix, Santini Rossi Cream, Santini Rossi Pink, Santini Rossi Sunny, Santini Rossi White, Santini Sun Up",
-              "ru": "Сантини Крашеный, Сантини Микс, Сантини Rossi Cream, Сантини Rossi Pink, Сантини Rossi Sunny, Сантини Rossi White, Сантини Sun Up"
-           }
-        }
-        ]
+            "name": {
+               "en": "Santini",
+               "ru": "Сантини"
+            },
+            "images": [
+               {
+                  "img": "https://shop.flowersforflorists.co.uk/user/products/flowers/104414.jpg"
+               },
+               {
+                  "img": "https://thursd.com/storage/media/37078/Chrysanthemum-Santini-Maverick-White-FeelHarmony-on-Thursd.jpg?1646224600825"
+               },
+               {
+                  "img": "https://avatars.dzeninfra.ru/get-zen_doc/1852570/pub_64f6eef0a35e890be432ae5c_64f6eef7a35e890be432b131/scale_1200"
+               },
+               {
+                  "img": "https://opt-fp.ru/uploads/store/product/698f8b3a939011eb80e2005056aebb19_59f702ae9b1011eb80e4005056aebb19.jpg"
+               }
+            ],
+            "desc": {
+               "en": "Santini chrysanthemums are available in a wide range of colors, including white, yellow, pink, red, purple, and more. They are known for their long-lasting blooms, making them a favoured choice for floral arrangements and bouquets. Unlike some other chrysanthemum varieties, Santinis do not have a strong scent, which can be beneficial for individuals who are sensitive to strong floral fragrances.",
+               "ru": "Хризантемы Сантини доступны в широком диапазоне цветов, включая белый, желтый, розовый, красный, фиолетовый и другие. Они известны своим длительным цветением, что делает их предпочтительным выбором для цветочных композиций и букетов. В отличие от некоторых других сортов хризантем, Сантини не имеют сильного запаха, что может быть полезно для людей, чувствительных к сильным цветочным ароматам."
+            },
+            "plantation": "Zentoo, Vannova, Kwekerij Waalzicht",
+            "quantity": 25,
+            "color": {
+               "en": "White Yellow Green Pink Red Orange Cream Dyed",
+               "ru": "Белый Желтый Зеленый Розовый Красный Оранжевый Кремовый Крашеный"
+            },
+            "height": 50,
+            "assortment": {
+               "en": "Santini Dyed, Santini Mix, Santini Rossi Cream, Santini Rossi Pink, Santini Rossi Sunny, Santini Rossi White, Santini Sun Up",
+               "ru": "Сантини Крашеный, Сантини Микс, Сантини Rossi Cream, Сантини Rossi Pink, Сантини Rossi Sunny, Сантини Rossi White, Сантини Sun Up"
+            }
+         }
+      ]
    },
    {
       "name": {
@@ -1650,13 +1644,7 @@
       },
       "images": [
          {
-            "img": "https://bloomsbythebox.sirv.com/img/product/xlarge/01288A__Dianthus_Green_Trick.jpg?q=100"
-         },
-         {
-            "img": "https://images.immediate.co.uk/production/volatile/sites/10/2018/08/5b1ec047-b510-4849-877d-7dbb71442ea8-590c6b3.jpg?quality=90&webp=true&resize=650,434"
-         },
-         {
-            "img": "https://azflowermarket.com/wp-content/uploads/Green_Trick-5.jpg"
+            "img": "https://m.orangespb.ru/upload/resize_cache/iblock/091/650_430_16a9cdfeb475445909b854c588a1af844/0915807af6cb0a2a242a88b1c22cb955.jpg"
          },
          {
             "img": "https://bellaflor-group.com/wp-content/uploads/green-trick-summer-flowers-stem.jpg"
@@ -2467,16 +2455,13 @@
       },
       "images": [
          {
-            "img": "https://nflo.ru/upload/iblock/a67/tl2kjh15hosq7a0w3fpdfzblg7td505d.webp"
+            "img": "https://alvareznursery.com/wp-content/uploads/2024/04/Leucadendron-%E2%80%98Safari-Sunset.jpg"
          },
          {
             "img": "https://plantsexpress.com/cdn/shop/files/Safari-Sunset-Conebush-4.jpg?v=1689104741"
          },
          {
             "img": "https://florabundance.com/wp-content/uploads/2018/03/leucadendron-safari-sunset_opt.jpg"
-         },
-         {
-            "img": "https://alvareznursery.com/wp-content/uploads/2024/04/Leucadendron-%E2%80%98Safari-Sunset.jpg"
          }
       ],
       "desc": {
@@ -2725,7 +2710,7 @@
       },
       "images": [
          {
-            "img": "https://dolina-sad.ru/upload/resize_cache/webp/iblock/e4b/e4bb97a36d226b43d4215355b9328aef.webp"
+            "img": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Allium_siculum.jpg"
          },
          {
             "img": "https://www.farmergracy.co.uk/cdn/shop/products/nectaroscordum-siculum-4.jpg?v=1568774431"
@@ -3154,12 +3139,6 @@
          "ru": "Протея"
       },
       "images": [
-         {
-            "img": "https://gbcvet.ru/upload/iblock/29a/qke2o88sbxu11rxd2c6yvu3lq8q1o907.jpg"
-         },
-         {
-            "img": "https://www.boesen.com/assets/img/dictionary/protea-king2.jpg"
-         },
          {
             "img": "https://images.squarespace-cdn.com/content/v1/5968af67414fb590cb8f77e3/1681958900811-TW83KNN4EEGGUYJU2WP2/unsplash-image-2q9mA1DuYtw.jpg"
          },
@@ -3843,16 +3822,13 @@
       },
       "images": [
          {
-            "img": "https://dachadacha.com/templates/yootheme/cache/forzitsiyamalukh-e4f5f465.jpeg"
+            "img": "https://www.picturethisai.com/wiki-image/1080/351945395660095488.jpeg"
          },
          {
             "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Forsythia_flower.JPG/1200px-Forsythia_flower.JPG"
          },
          {
             "img": "https://www.tennesseewholesalenursery.com/cdn/shop/files/34474__26083_1__46788.1663658727.1280.1280_1.jpg?v=1698117588&width=1173"
-         },
-         {
-            "img": "https://www.picturethisai.com/wiki-image/1080/351945395660095488.jpeg"
          }
       ],
       "desc": {

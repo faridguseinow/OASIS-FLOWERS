@@ -17,7 +17,8 @@
             width: 100%;
             // height: 200px;
             object-fit: cover;
-            border-radius: 5px;
+            border: 1px solid var(--gray);
+            border-radius: 32px;
          }
       }
 
@@ -27,7 +28,7 @@
          h2 {
             font-family: var(--f-medium);
             font-size: 28px;
-            color: var(--white);
+            color: var(--black);
             transition: all .25s ease;
             line-height: 32px;
          }
@@ -37,7 +38,7 @@
 
          &:hover .card_title {
             h2 {
-               color: var(--gold);
+               color: var(--pink);
             }
          }
       }

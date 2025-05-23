@@ -2,13 +2,13 @@ import React from 'react'
 import './style.scss'
 
 //import images
-import Logo from '@/assets/media/images/oasis_logo.png'
-import Logo_S from '@/assets/media/images/logoOA.png'
+import Logo from '@/assets/icons/oasis_logo.png'
+import Logo_S from '@/assets/icons/logo_mini.png'
 import ArrowDown from '@/assets/icons/arrowDown';
-// import ShopSVG from '@/assets/icons/shop.svg'
-// import DownloadSVG from '@/assets/icons/download.svg'
-// import DownloadSVG from '@/assets/icons/eye.png'
-// import VideoCam from '@/assets/icons/videocam.png'
+
+//import components
+import ThemeIcon from '@/components/ThemeIcon';
+
 
 ///Import react router dom
 import { Link } from 'react-router-dom';
@@ -16,7 +16,7 @@ import { Link } from 'react-router-dom';
 ///Import Utils
 import { useTranslation } from 'react-i18next';
 
-const Index = ({ menuIsActive, setMenuIsActive }) => {
+const Index = ({ menuIsActive, setMenuIsActive, toggleTheme }) => {
     const { t, i18n } = useTranslation();
 
     const menuShowHide = () => {
@@ -34,6 +34,10 @@ const Index = ({ menuIsActive, setMenuIsActive }) => {
         window.location.reload();
     };
 
+
+
+
+
     return (
         <div className='Navbar'>
             <div className='inner_nav'>
@@ -50,7 +54,6 @@ const Index = ({ menuIsActive, setMenuIsActive }) => {
                         </Link>
                     </div>
                 </div>
-
 
                 <div className='nav_menu'>
 
@@ -90,33 +93,22 @@ const Index = ({ menuIsActive, setMenuIsActive }) => {
                                     <Link to={'/about'}>
                                         <li>{t('navbar.whoWeAre')}</li>
                                     </Link>
-                                    <Link to={'/cooperation'}>
-                                        <li>{t('navbar.cooperation')}</li>
+                                    <Link to={'/suppliers'}>
+                                        <li>{t('navbar.suppliers')}</li>
+                                    </Link>
+                                    <Link to={'https://opt.oasis-gc.ru/'} target='_blank'>
+                                        <li>{t('navbar.gardenCenter')}</li>
                                     </Link>
                                 </ul>
                             </div>
                         </div>
-
                         <div className="menu_text_main">
-
                             <Link to={'/contacts'}>
                                 <div className='menu_text_main_inner'>
-                                    <p>{t('navbar.contact')}</p>
+                                    <p>{t('navbar.contacts')}</p>
                                 </div>
                             </Link>
-
                         </div>
-
-                        {/* <div className="menu_text_main camera">
-
-                            <Link to={'/cameras'}>
-                                <div className='menu_text_main_inner camera_inner'>
-                                    <img src={VideoCam} width={24} />
-                                    <p>{t('navbar.showcase')}</p>
-                                </div>
-                            </Link>
-
-                        </div> */}
                     </div>
                 </div>
 
@@ -129,7 +121,7 @@ const Index = ({ menuIsActive, setMenuIsActive }) => {
                                 <span>Магазин</span>
                             </button>
                         </a> */}
-                        <a href={window.innerWidth <= 767 ? "http://gfcc.ru/pricelist" : "http://gfcc.ru/pricelist"} target={'_blank'}>
+                        <a href={window.innerWidth <= 767 ? "https://docs.google.com/spreadsheets/d/1pGaY3Efuyyitsdeq3vMNeF9nMRLFc4ojJA6T_mDleyM/edit?gid=652358148#gid=652358148" : "https://docs.google.com/spreadsheets/d/1pGaY3Efuyyitsdeq3vMNeF9nMRLFc4ojJA6T_mDleyM/edit?gid=1708159673#gid=1708159673"} target={'_blank'}>
                             <button>
                                 {/* <img src={DownloadSVG} width={24}/> */}
                                 <span>{t('navbar.priceList')}</span>
@@ -140,13 +132,19 @@ const Index = ({ menuIsActive, setMenuIsActive }) => {
                     <div className="localization__wrapper">
                         <span
                             onClick={() => changeLanguage('ru')}
-                            style={{ color: i18n.language === 'ru' && 'var(--gold)' }}
+                            style={{ color: i18n.language === 'ru' && 'var(--pink)' }}
                         >RU</span>
                         <span>|</span>
                         <span
                             onClick={() => changeLanguage('en')}
-                            style={{ color: i18n.language === 'en' && 'var(--gold)' }}
+                            style={{ color: i18n.language === 'en' && 'var(--pink)' }}
                         >EN</span>
+                    </div>
+
+                    <div className="theme_switcher">
+                        <button onClick={toggleTheme} className="theme-toggle-btn">
+                            <ThemeIcon />
+                        </button>
                     </div>
 
                     <div className="nav_hamburger" data-isactive={menuIsActive ? 'true' : 'false'}>

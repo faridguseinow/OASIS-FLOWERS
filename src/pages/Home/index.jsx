@@ -5,10 +5,11 @@ import { motion } from 'framer-motion';
 //Import Components
 import Button from '@/components/Button/Index';
 import Slider from '@/components/Slider/index';
-import MapSVG from '@/assets/media/images/materials/world_map.png';
-import AboutVid from '@/assets/media/video/about_vid.mp4';
-// import Lemonad from '@/assets/media/images/materials/lemonad.svg';
+import AboutVid from '@/assets/media/video/teaser.mp4';
 import { Helmet } from 'react-helmet';
+
+import DeliveryQRcode from '@/assets/media/images/delivery_qrcode.svg'
+import DeliveryGIF from '@/assets/media/images/delivery.gif'
 
 //Import Utils
 import { useTranslation } from 'react-i18next';
@@ -20,59 +21,9 @@ import ParallaxText from '@/components/Parallax';
 const Index = () => {
     const { t, i18n } = useTranslation();
 
-    let sliderOptions = [
-        {
-            img: 'https://sun9-71.userapi.com/impg/CZP1u3gVYIKYixqzQs0En_LT-pvhXf9bmuNmKQ/nligGLe7Bs8.jpg?size=1080x720&quality=95&sign=92ddeae870e45cb004cc12253e5a1896&type=album',
-            title: 'РОЗЫ МЕСТНЫЕ'
-        },
-        {
-            img: 'https://sun9-27.userapi.com/impg/dJFYOgFnn8Lg31pCYxRdrA8fAAQVEOf508qs4Q/5muJqE7ox9g.jpg?size=1080x720&quality=95&sign=fe221955c44202c353e82ea1730c0c90&type=album',
-            title: 'РОЗЫ ГОЛЛАНДСКИЕ'
-        },
-        {
-            img: 'https://sun9-80.userapi.com/impg/-T03Fao9ePC9qoy2tnOq9ojmjaaEP-debSJyUA/5xpt40z0kik.jpg?size=1080x720&quality=95&sign=e835f355ec2c53bd4d4dda9bf3f853a2&type=album',
-            title: 'ХРИЗАНТЕМА'
-        },
-        {
-            img: 'https://sun9-78.userapi.com/impg/aoWbwNwDtv3knokAohxi3ToL0TAzDGkp-Aoa9g/r7vThk42F2I.jpg?size=1080x720&quality=95&sign=3429a8dbadc50a3488388590d7611fb5&type=album',
-            title: 'ЭКЗОТИЧЕСКИЕ ЦВЕТЫ'
-        },
-        {
-            img: 'https://sun9-51.userapi.com/impg/al6yuS_JezjJqYg5xa6u8K76HayRtrsFo5KSeQ/TRABzZU4VN8.jpg?size=1080x720&quality=95&sign=4a81b37a4c4fa164743e102cf5c127ef&type=album',
-            title: 'РОЗЫ ИЗ ЭКВАДОРА'
-        },
-        {
-            img: 'https://sun9-39.userapi.com/impg/TM-r-aSfi0SbKaKTT92xVdtJqDLTAjg_bAQftQ/rvksrjdcjvA.jpg?size=1080x720&quality=95&sign=d344a8046deb5e35b1fcf24afe4ffe66&type=album',
-            title: 'РОЗЫ ИЗ КЕНИИ'
-        },
-        {
-            img: 'https://sun9-19.userapi.com/impg/OCuVZn3wl9F8i4rg8mJyFL0NSHHfXV67dYPZ_A/cXWLC3fyd-k.jpg?size=1080x720&quality=95&sign=a6fa13ff568d1a55020dbf4cb1d8e76d&type=album',
-            title: 'КОМНАТНЫЕ РАСТЕНИЯ'
-        },
-        {
-            img: 'https://sun9-50.userapi.com/impg/bb2VpNG76pIE6ZyXbNwRzpGPqLy0NGi4qN0jpg/aTyKt18t6zU.jpg?size=1080x720&quality=95&sign=1c2caf155853e0b488a8d54e5e88da27&type=album',
-            title: 'АКСЕССУАРЫ'
-        }
-    ]
-
     let sliderMainOptions = [
         {
-            img: 'https://sun9-51.userapi.com/impg/PxZkPrrOjVZzit2tlatNh64gPFZ4QFcFBUde4A/_GaNmEAc2YI.jpg?size=1280x853&quality=95&sign=0fb842027c86b8a967d963500b4e8c96&type=album'
-        },
-        {
-            img: 'https://sun9-52.userapi.com/impg/0NzSz2zT8HymeJpIW9MIuKqe0DBaYk4-lyGuWA/BqLfctZ4fSg.jpg?size=1280x853&quality=95&sign=dede5b363a7217c0cc9a1fa8c9320e5f&type=album'
-        },
-        {
-            img: 'https://sun9-24.userapi.com/impg/tF3TEh2LLcPSiMWxEuSWKphQyWscnyXjlO-OQQ/lD7NM1PxWLM.jpg?size=1080x720&quality=95&sign=213cc431d5836b35402ef0392d8be844&type=album'
-        },
-        {
-            img: 'https://sun9-29.userapi.com/impg/if-3JNyfbIVZ3rWDy5jfqckIwwrNq6q4eA8tQQ/Bx-5mfiFXOk.jpg?size=1080x720&quality=95&sign=f3138b6260d632ab4cb231ca7894d0a0&type=album'
-        },
-        {
-            img: 'https://sun9-40.userapi.com/impg/akYge6qrzYj03BwbGHgjgerHROKE4UM_r8b11g/07z2pBdjBhY.jpg?size=1080x720&quality=95&sign=ce6c4286caca4b4ae1d7bff842fc9aef&type=album'
-        },
-        {
-            img: 'https://sun9-19.userapi.com/impg/AM_HAknMYE7Pjbo0dNGj4nOCqXRxSPMckK52Dw/-aw_sXoTmmU.jpg?size=1080x720&quality=95&sign=dbb654a650778a6a7d8e0b4e12cd8cb2&type=album'
+            img: 'https://www.bloomingbackyard.com/wp-content/uploads/2021/03/purple-alliums.jpg'
         }
     ]
 
@@ -87,51 +38,47 @@ const Index = () => {
 
             <Helmet>
                 <title>Oasis Cash&Carry - Home</title>
-                <link rel="canonical" href="http://gfcc.ru/" />
+                <link rel="canonical" href="http://oasisflowers.ru/" />
             </Helmet>
 
             <header>
 
+                <video playsInline src={AboutVid} autoPlay muted loop></video>
+
                 <div className="header_slogan">
-                    <p className='p1'>ОАЗИС Сash&Сarry</p>
-                    <p className='p2'>{t('home.headerDesc')}</p>
-
-                    {/* <div className="yandex_otziv">
-                    <iframe src="https://yandex.ru/sprav/widget/rating-badge/57660294184?type=award"></iframe>
-                    </div> */}
+                    <p className='p1'>{t('home.headerDesc1')}</p>
+                    <p className='p2'>{t('home.headerDesc2')}</p>
                 </div>
 
-
-                <div className="slide_wrapper">
-                    <Slider
-                        loop={true}
-                        options={sliderOptions}
-                    />
-                </div>
             </header>
 
             <div className="about_wrapper">
                 <div className="about_wrapper_inner">
 
                     <div className="left_content">
-                        <video playsInline src={AboutVid} autoPlay muted loop>
-                        </video>
+                        <div className='delivery_section'>
+                            <img src={DeliveryQRcode} alt="delivery" />
+                        </div>
+                        <img src={DeliveryGIF} alt="" />
+                        {/* <video playsInline src={AboutVid} autoPlay muted loop>
+                        </video> */}
                     </div>
                     <div className="right_content">
                         <p className='content_title'>{t('home.aboutSection.title')}</p>
 
-                        <span className='content_desc'>{t('home.aboutSection.desc')}</span>
+                        <span className='content_desc'>{t('home.aboutSection.desc')}
+                            <a href={'https://wa.me/79031938889'}>+7 903 196 88 89</a>
+                        </span>
 
                         <div className="content_button">
                             <Button
-                                btnText={t('home.aboutSection.btnText')}
+                                btnText={t('home.headerDesc4')}
                                 className={'btn btn_white hover_gold'}
-                                icon={'arrow-right'}
-                                href={'/about'}
+                                href={'https://wa.me/79031938889'}
+                                target={'_blank'}
                             />
                         </div>
                     </div>
-
                 </div>
             </div>
 
@@ -219,7 +166,6 @@ const Index = () => {
 
             <div className="home_map_wrapper">
                 <div className='map'>
-                    <img src={MapSVG} />
                     <div className='map_wrapper'>
                         <div className="map_wrapper_text">
                             <span>{t('home.supplierSection.title')}</span>
@@ -229,23 +175,16 @@ const Index = () => {
                                     btnText={t('home.supplierSection.btnText')}
                                     className={'btn btn_white hover_gold'}
                                     icon={'arrow-right'}
-                                    href={'/cooperation'}
+                                    href={'/suppliers'}
                                 />
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-
-            {/* <div className="yandex_container">
-                <div className='reviews_forms'>
-                    <iframe className="reviews" src="https://yandex.ru/maps-reviews-widget/57660294184?comments"></iframe>
-                    <iframe className="yandex_forms" src="https://forms.yandex.ru/u/678c1a1990fa7b0b411c1639/?iframe=1" frameborder={0} width={650}></iframe>
-                </div>
-
-            </div> */}
         </motion.div>
     )
+
 }
 
 export default Index

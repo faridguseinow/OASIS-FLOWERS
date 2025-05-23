@@ -61,7 +61,7 @@ const Index = () => {
 
          <Helmet>
             <title>Oasis Cash&Carry - Accessories</title>
-            <link rel="canonical" href="http://gfcc.ru/products/accessories" />
+            <link rel="canonical" href="http://oasisflowers.ru/products/accessories" />
          </Helmet>
 
          <div className="search_bar">

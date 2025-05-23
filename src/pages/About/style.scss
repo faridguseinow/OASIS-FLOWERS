@@ -1,5 +1,6 @@
 .about_page {
     position: relative;
+    background: var(--white);
 
     .about_content_wrapper {
         width: 100%;
@@ -19,15 +20,15 @@
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            background: url('https://sun9-13.userapi.com/impg/z17V7wi8F_0ysc0dCXrqVojbHaaa40miHQNpYQ/fl4z2GDEh5A.jpg?size=2560x1707&quality=95&sign=09e75a180c10b5b21d2ecfb5facb569f&type=album');
+            background: url('https://img.freepik.com/premium-photo/bouquet-flowers-from-collection-flowers-by-person_1000124-2849.jpg');
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center;
 
 
             .about_div {
-                background: var(--gray);
-                border-radius: 15px;
+                background: var(--white);
+                border-radius: 36px;
 
                 .about_title {
                     max-width: 1140px;
@@ -39,7 +40,7 @@
                     .container_title_num {
                         width: 100%;
                         font-family: var(--f-bold);
-                        color: var(--white);
+                        color: var(--black);
                         padding: 0 0 20px 0;
                         font-size: 36px;
                         
@@ -47,7 +48,7 @@
 
                     .container_text_num {
                         width: 100%;
-                        color: var(--white);
+                        color: var(--black);
                         font-size: 20px;
 
 
@@ -73,47 +74,49 @@
                         align-items: center;
 
                         .num_section {
+                            max-width: 200px;
                             height: 182px;
                             display: flex;
                             flex-direction: column;
-                            justify-content: center;
+                            justify-content: space-around;
                             align-items: center;
-                            color: var(--white);
+                            color: var(--black);
                             backdrop-filter: blur(5px);
                             text-align: center;
                             padding: 15px;
                             transition: all 0.5s ease;
-                            border: 1px solid #fff;
-                            border-radius: 15px;
+                            border: 1px solid var(--black);
+                            border-radius: 36px;
 
                             .num_icon {
 
                                 img {
                                     width: 50px;
                                     height: auto;
+                                    fill: var(--black);
                                 }
                             }
 
                             .count {
+                                width: 100%;
 
 
                                 h1 {
-                                    font-size: 50px;
+                                    font-size: 36px;
                                     font-family: var(--f-bold);
 
                                 }
                             }
 
                             .num_text {
-                                width: 150px;
-
                                 span {
-                                    font-size: 11px;
+                                    font-family: var(--f-regular);
+                                    font-size: 10px;
                                 }
                             }
 
                             &:hover {
-                                background: #0000008c;
+                                background: var(--gray);
                             }
                         }
                     }
@@ -128,7 +131,7 @@
            
 
             .container_title {
-                color: var(--white);
+                color: var(--black);
                 text-align: center;
                 font-size: 36px;
                 font-family: var(--f-bold);
@@ -157,16 +160,16 @@
                         width: 60%;
                         
                         img {
-                            border-radius: 15px;
+                            border-radius: 36px;
                         }
                     }
 
                     .main_slogan_text {
                         width: 40%;
-                        color: var(--white);
+                        color: var(--black);
                         padding: 35px;
                         background: var(--gray);
-                        border-radius: 15px;
+                        border-radius: 36px;
 
                         h1 {
                             font-family: var(--f-bold);
@@ -185,10 +188,10 @@
 
 
                                 a {
-                                    color: var(--white);
+                                    color: var(--black);
 
                                     &:hover {
-                                        color: var(--gold);
+                                        color: var(--pink);
                                     }
                                 }
 
@@ -206,16 +209,16 @@
                         width: 60%;
                         
                         img {
-                            border-radius: 15px;
+                            border-radius: 36px;
                         }
                     }
 
                     .main_slogan_text {
                         width: 40%;
-                        color: var(--white);
+                        color: var(--black);
                         padding: 35px;
                         background: var(--gray);
-                        border-radius: 15px;
+                        border-radius: 36px;
 
                         h1 {
                             font-family: var(--f-bold);
@@ -231,10 +234,10 @@
 
                             li {
                                 a {
-                                    color: var(--white);
+                                    color: var(--black);
 
                                     &:hover {
-                                        color: var(--gold);
+                                        color: var(--pink);
                                     }
                                 }
 
@@ -254,16 +257,16 @@
                         height: 100%;
 
                         img {
-                            border-radius: 15px;
+                            border-radius: 36px;
                         }
                     }
 
                     .main_slogan_text {
                         width: 40%;
-                        color: var(--white);
+                        color: var(--black);
                         padding: 35px;
                         background: var(--gray);
-                        border-radius: 15px;
+                        border-radius: 36px;
 
                         h1 {
                             font-family: var(--f-bold);
@@ -282,10 +285,10 @@
 
 
                                 a {
-                                    color: var(--white);
+                                    color: var(--black);
 
                                     &:hover {
-                                        color: var(--gold);
+                                        color: var(--pink);
                                     }
                                 }
 
@@ -308,11 +311,17 @@
             .about_head {
 
                 .about_div {
+                    margin: 0 40px;
+
+                    .container_text_num {
+                        display: none;
+                    }
 
                     .animated_numbers_wrapper {
 
                         .animated_num_wrap_inner {
-                            justify-content: space-between;
+                            justify-content: center;
+                            flex-wrap: wrap;
                             padding: 0 50px 50px;
 
 
@@ -456,6 +465,7 @@
 
             .about_head {
                 height: 100%;
+                background: none;
 
                 .about_div {
 

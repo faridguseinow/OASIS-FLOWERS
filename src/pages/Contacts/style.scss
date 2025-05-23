@@ -1,9 +1,10 @@
 .contact_page {
    position: relative;
+   background: var(--white);
 
-   .contacts_content_wrapper {
+   .contact_content_wrapper {
       width: 100%;
-      padding: 64px;
+      padding: 0 64px;
       position: relative;
       display: flex;
       flex-direction: column;
@@ -18,10 +19,8 @@
          height: 100%;
          display: flex;
          align-items: center;
-         background: #ffffff1f;
-         padding: 32px;
+         padding-top: 32px;
          gap: 28px;
-         border-radius: 15px;
 
          .number_container {
             width: 100%;
@@ -35,7 +34,7 @@
                width: 100%;
                font-family: var(--f-medium);
                font-size: 20px;
-               color: var(--white);
+               color: var(--black);
                text-align: center;
                line-height: 1.3;
 
@@ -44,7 +43,7 @@
                }
 
                span {
-                  color: var(--gold)
+                  color: var(--pink)
                }
             }
 
@@ -63,14 +62,14 @@
                .num_section {
                   width: 100%;
                   height: 70px;
-                  color: var(--white);
+                  color: var(--black);
                   text-decoration: none;
                   display: flex;
                   align-items: center;
                   justify-content: space-evenly;
                   background: var(--gray);
                   transition: all .3s ease;
-                  border-radius: 15px;
+                  border-radius: 36px;
 
                   .num_sec_left {
                      display: flex;
@@ -85,86 +84,17 @@
                      line-height: 1.3;
 
                      a {
-                        color: var(--white);
+                        color: var(--black);
                         transition: all .3s ease;
 
                         &:hover {
-                           color: var(--gold);
+                           color: var(--pink);
                         }
                      }
                   }
                }
             }
          }
-
-
-         // .swiper {
-         //    width: 350px;
-         //    height: 400px;
-
-         //    .swiper-slide {
-         //       display: flex;
-         //       align-items: center;
-         //       justify-content: center;
-         //       color: var(--white);
-         //       font-family: var(--f-medium);
-         //       // border-radius: 15px;
-         //       background: url('../../assets/media/images/materials/bg_head.jpg');
-         //       background-position: center;
-         //       background-size: cover;
-
-
-         //       .num_cards {
-         //          width: 100%;
-         //          height: 100%;
-         //          display: flex;
-         //          flex-direction: column;
-         //          align-items: center;
-         //          justify-content: center;
-
-         //          .num_filter {
-         //             width: 300px;
-         //             height: 205px;
-         //             display: flex;
-         //             flex-direction: column;
-         //             align-items: center;
-         //             justify-content: center;
-         //             gap: 16px;
-         //             padding: 32px;
-         //             // border-radius: 15px;
-         //             border: 1px solid var(--white);
-         //             backdrop-filter: blur(5px);
-         //             background: var(--gray);
-
-         //             .num_logo_text {
-         //                display: flex;
-         //                justify-content: center;
-         //                align-items: center;
-         //                gap: 15px;
-         //             }
-
-         //             .num_number {
-         //                line-height: 1.5;
-         //             }
-
-         //             .num_icons {
-         //                display: flex;
-
-         //                a {
-         //                   width: 100%;
-         //                   height: 100%;
-         //                   transition: all 0.3s ease;
-
-         //                   &:hover {
-         //                      transform: scale(.90);
-         //                   }
-         //                }
-         //             }
-         //          }
-         //       }
-         //    }
-         // }
-
       }
 
       .contact-form__wrapper {
@@ -173,10 +103,9 @@
          height: 100%;
          display: flex;
          align-items: center;
-         background: #ffffff1f;
-         padding: 32px;
+         padding-bottom: 32px;
          gap: 28px;
-         border-radius: 15px;
+         border-radius: 36px;
 
          .base_img {
             
@@ -185,7 +114,7 @@
                width: 100%;
                height: 550px;
                object-fit: cover;
-               border-radius: 15px;
+               border-radius: 36px;
             }
 
          }
@@ -205,117 +134,11 @@
                   width: 100%;
                   height: 550px;
                   display: block;
-                  border-radius: 15px;
+                  border-radius: 36px;
                }
             }
          }
-
-
       }
-
-
-      // .contact-form__wrapper {
-      //    max-width: 1140px;
-      //    width: 100%;
-      //    display: flex;
-      //    gap: 28px;
-      //    padding: 32px;
-      //    background: #ffffff1f;
-
-      //    .image__wrapper {
-      //       width: 50%;
-      //       display: flex;
-
-      //       img {
-      //          width: 100%;
-      //          height: 100%;
-      //          object-fit: cover;
-      //       }
-      //    }
-
-      //    .form__wrapper {
-      //       width: 50%;
-      //       background: var(--gray);
-      //       padding: 32px;
-      //       display: flex;
-      //       flex-direction: column;
-      //       gap: 20px;
-
-      //       .wrapper__title {
-      //          width: 100%;
-      //          display: flex;
-      //          justify-content: center;
-
-      //          h2 {
-      //             font-size: 28px;
-      //             line-height: 32px;
-      //             font-family: var(--f-medium);
-      //             color: var(--white);
-      //          }
-      //       }
-
-      //       form {
-      //          width: 100%;
-      //          display: flex;
-      //          flex-direction: column;
-      //          gap: 16px;
-
-      //          .form__controller {
-      //             width: 100%;
-      //             display: flex;
-      //             flex-direction: column;
-      //             gap: 8px;
-
-      //             label {
-      //                color: var(--white);
-      //                font-family: var(--f-medium);
-      //                font-size: 14px;
-      //                line-height: 17.5px;
-      //             }
-
-      //             input,
-      //             textarea {
-      //                padding: 0 12px;
-      //                width: 100%;
-      //                border: 0.5px solid #828282 !important;
-
-      //                &:focus {
-      //                   border: .5px solid #fff !important
-      //                }
-
-      //                &::placeholder {
-      //                   color: var(--white);
-      //                   opacity: .8;
-      //                }
-      //             }
-
-      //             textarea {
-      //                min-height: 150px;
-      //                padding: 12px;
-      //                resize: none;
-      //             }
-
-      //             button {
-      //                width: 100%;
-      //                border: 0.5px solid #828282 !important;
-      //                background: var(--gold) !important;
-      //                border: 0 !important;
-      //                font-size: 18px;
-      //             }
-
-      //             .error__message {
-      //                font-size: 14px;
-      //                line-height: 17.5px;
-      //                font-family: var(--f-medium);
-      //                color: tomato;
-      //                margin-left: 6px;
-      //             }
-      //          }
-      //       }
-      //    }
-      // }
-
-
    }
 }
 
@@ -323,7 +146,7 @@
 
    .contact_page {
 
-      .contacts_content_wrapper {
+      .contact_content_wrapper {
          max-width: 1140px;
          width: 100%;
          padding: 32px 40px;
@@ -337,7 +160,7 @@
 
                .number_text {
                   span {
-                     color: var(--gold)
+                     color: var(--pink)
                   }
                }
 
@@ -346,7 +169,7 @@
                   .num_section {
                      width: 100%;
                      height: 80px;
-                     color: var(--white);
+                     color: var(--black);
                      text-decoration: none;
                      display: flex;
                      flex-direction: column;
@@ -368,11 +191,11 @@
                         gap: 15px;
 
                         a {
-                           color: var(--white);
+                           color: var(--black);
                            transition: all .3s ease;
 
                            &:hover {
-                              color: var(--gold);
+                              color: var(--pink);
                            }
                         }
                      }
@@ -417,14 +240,14 @@
 @media screen and (max-width:768px) {
 
    .contact_page {
-      .contacts_content_wrapper {
+      .contact_content_wrapper {
          gap: 16px;
          padding: 25px 16px;
 
          .content_num {
             display: flex;
             flex-direction: column;
-            padding: 16px;
+            padding: 0;
 
             .number_container {
                width: 100%;
@@ -434,7 +257,7 @@
                   width: 100%;
                   font-family: var(--f-medium);
                   font-size: 20px;
-                  color: var(--white);
+                  color: var(--black);
                   text-align: center;
                   line-height: 1.3;
                   padding: 0;
@@ -448,7 +271,7 @@
                   }
 
                   span {
-                     color: var(--gold)
+                     color: var(--pink)
                   }
                }
 
@@ -484,7 +307,6 @@
             flex-direction: column;
             gap: 28px;
             padding: 16px;
-            background: #ffffff1f;
 
             .base_img {
 
