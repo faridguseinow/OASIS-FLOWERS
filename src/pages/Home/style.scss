@@ -107,8 +107,16 @@
                     padding-right: 16px;
                 }
 
-                .videoplayer_controls_item {
-                    opacity: 0;
+                .number_del {
+                    display: inline-flex;
+                    align-items: center;
+                    padding: 8px 20px;
+                    height: 42px;
+                    border: 1px solid var(--black);
+                    border-radius: 36px;
+                    text-decoration: none;
+                    font-family: var(--f-medium);
+                    color: var(--black);
                 }
             }
 
@@ -482,7 +490,7 @@
         }
 
         .about_wrapper {
-            height: 40vh;
+            height: 50vh;
             padding: 16px 16px;
 
             .about_wrapper_inner {
@@ -513,8 +521,6 @@
 
                     .delivery_section {
                         display: none;
-
-
                     }
                 }
             }
@@ -525,7 +531,7 @@
             flex-direction: column;
             align-items: center;
             position: relative;
-            height: 40vh;
+            height: 50vh;
 
             .slide_wrapper {
                 width: 100%;

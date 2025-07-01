@@ -65,19 +65,8 @@ const Index = () => {
                     </div>
                     <div className="right_content">
                         <p className='content_title'>{t('home.aboutSection.title')}</p>
-
-                        <span className='content_desc'>{t('home.aboutSection.desc')}
-                            <a href={'https://wa.me/79031938889'}>+7 903 196 88 89</a>
-                        </span>
-
-                        <div className="content_button">
-                            <Button
-                                btnText={t('home.headerDesc4')}
-                                className={'btn btn_white hover_gold'}
-                                href={'https://wa.me/79031938889'}
-                                target={'_blank'}
-                            />
-                        </div>
+                        <span className='content_desc'>{t('home.aboutSection.desc')}</span>
+                        <a className='number_del' href={'https://wa.me/79031968889'} target='_blank'>+7 903 196 88 89</a>
                     </div>
                 </div>
             </div>

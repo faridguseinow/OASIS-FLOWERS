@@ -114,20 +114,20 @@ const Index = ({ menuIsActive, setMenuIsActive, toggleTheme }) => {
 
                 <div className="nav_right">
 
-                    <div className="shop_button">
-                        {/* <a href={"https://gfcc.clients.site/"} target={'_blank'}>
+                    {/* <div className="shop_button">
+                        <a href={"https://gfcc.clients.site/"} target={'_blank'}>
                             <button>
                                 <img src={ShopSVG}/>
                                 <span>Магазин</span>
                             </button>
-                        </a> */}
+                        </a>
                         <a href={window.innerWidth <= 767 ? "https://docs.google.com/spreadsheets/d/1pGaY3Efuyyitsdeq3vMNeF9nMRLFc4ojJA6T_mDleyM/edit?gid=652358148#gid=652358148" : "https://docs.google.com/spreadsheets/d/1pGaY3Efuyyitsdeq3vMNeF9nMRLFc4ojJA6T_mDleyM/edit?gid=1708159673#gid=1708159673"} target={'_blank'}>
                             <button>
-                                {/* <img src={DownloadSVG} width={24}/> */}
+                                <img src={DownloadSVG} width={24}/>
                                 <span>{t('navbar.priceList')}</span>
                             </button>
                         </a>
-                    </div>
+                    </div> */}
 
                     <div className="localization__wrapper">
                         <span
