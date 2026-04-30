@@ -54,19 +54,48 @@ const Index = () => {
 
             <div className="about_wrapper">
                 <div className="about_wrapper_inner">
-
                     <div className="left_content">
-                        <div className='delivery_section'>
-                            <img src={DeliveryQRcode} alt="delivery" />
+                        <div className="delivery_visual">
+                            <div className="delivery_visual_frame">
+                                <img src={DeliveryGIF} alt={t('home.aboutSection.visualAlt')} />
+                            </div>
+                            <a
+                                className='delivery_qr'
+                                href='https://wa.me/79031968889'
+                                target='_blank'
+                                rel='noreferrer'
+                                aria-label={t('home.aboutSection.qrAlt')}
+                            >
+                                <img src={DeliveryQRcode} alt={t('home.aboutSection.qrAlt')} />
+                                <span>{t('home.aboutSection.qrLabel')}</span>
+                            </a>
                         </div>
-                        <img src={DeliveryGIF} alt="" />
-                        {/* <video playsInline src={AboutVid} autoPlay muted loop>
-                        </video> */}
                     </div>
+
                     <div className="right_content">
+                        <span className='content_eyebrow'>{t('home.aboutSection.eyebrow')}</span>
                         <p className='content_title'>{t('home.aboutSection.title')}</p>
                         <span className='content_desc'>{t('home.aboutSection.desc')}</span>
-                        <a className='number_del' href={'https://wa.me/79031968889'} target='_blank'>+7 903 196 88 89</a>
+
+                        <div className="delivery_meta">
+                            <span>{t('home.aboutSection.region')}</span>
+                            <span>{t('home.aboutSection.transport')}</span>
+                            <span>{t('home.aboutSection.hours')}</span>
+                        </div>
+
+                        <div className="delivery_actions">
+                            <a
+                                className='btn btn_white hover_gold'
+                                href='https://wa.me/79031968889'
+                                target='_blank'
+                                rel='noreferrer'
+                            >
+                                {t('home.aboutSection.whatsapp')}
+                            </a>
+                            <a className='btn btn_white hover_gold' href='tel:+79031968889'>
+                                +7 903 196 88 89
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>

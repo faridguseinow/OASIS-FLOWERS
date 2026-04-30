@@ -103,7 +103,7 @@ function index() {
                                     <p>{t('contacts.section1.office4')}</p>
                                 </div>
                                 <div className="num_sec_right">
-                                    <a href='https://wa.me/79660135222' target='_blank'>8 (966) 013 22 22</a>
+                                    <a href='https://wa.me/79660135222' target='_blank'>8 (966) 013 52 22</a>
                                 </div>
 
                             </div>

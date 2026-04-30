@@ -218,15 +218,15 @@ const Index = () => {
                </div>
 
 
-               {/* <div className="product_button">
+               <div className="product_button">
                   <Button
-                     btnText={'Перейти в магазин'}
+                     btnText={'Прайс-лист'}
                      className={'btn btn_white hover_gold'}
                      icon={'arrow-right'}
-                     href={'https://gfcc.clients.site/'}
+                     href={'https://gfcc-oasis.ru'}
                      target={'_blank'}
                   />
-               </div> */}
+               </div>
             </div>
          </div>
          <div className="product_info">

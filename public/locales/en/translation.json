@@ -47,9 +47,23 @@
       "headerDesc3": "Scan QR for delivery",
       "headerDesc4": "Tap to Delivery",
       "aboutSection": {
+         "eyebrow": "Logistics and shipping",
          "title": "Delivery",
-         "desc": "We deliver goods in Moscow and the Moscow region. Delivery to cities in Russia is carried out to the transport company you work with. To calculate the cost of delivery, call:",
-         "btnText": "Read more"
+         "desc": "We deliver across Moscow and the Moscow region. For other cities in Russia, we ship through your preferred transport company and quickly coordinate dispatch.",
+         "btnText": "Read more",
+         "badge": "Fast quote",
+         "hours": "24/7 availability",
+         "qrAlt": "QR code to open WhatsApp",
+         "qrHint": "Scan the QR code and message us on WhatsApp",
+         "qrLabel": "WhatsApp QR",
+         "visualAlt": "Delivery illustration",
+         "region": "Moscow and Moscow region",
+         "transport": "Delivery across Russia to your carrier",
+         "step1": "Send your request in WhatsApp or call our manager.",
+         "step2": "We confirm the address, order volume, and delivery window.",
+         "step3": "We calculate the cost and approve shipment quickly.",
+         "whatsapp": "Message on WhatsApp",
+         "call": "Call us"
       },
       "collectionSection": {
          "title": "Only fresh flowers and plants from fertile soil",
